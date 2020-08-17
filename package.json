@@ -1,27 +1,41 @@
 {
-  "name": "mixologistrecipes",
-  "version": "1.0.0",
-  "description": "Drink recipes for batenders.",
-  "main": "app.js",
-  "author": "David Robert Ball",
-  "license": "MIT",
-  "scripts": {
-    "scrape-recipes": "node scrape-recipes.js",
-    "scrape-recipes-debug": "node --inspect-brk scrape-recipes.js"
-  },
-  "keywords": [
-    "mixologist",
-    "bartender",
-    "drinks"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/DavidBall117/MixologistRecipes.git"
-  },
-  "devDependencies": {
-    "axios": "^0.19.2",
-    "nodemon": "^2.0.4",
-    "uuid": "^8.3.0"
-  },
-  "dependencies": {}
+	"name": "mixologistrecipes",
+	"version": "1.0.0",
+	"description": "Drink recipes for bartenders.",
+	"main": "app.js",
+	"author": "David Robert Ball",
+	"license": "MIT",
+	"scripts": {
+		"start": "node app.js",
+		"startn": "nodemon app.js",
+		"startd": "node --inspect app.js",
+		"startnd": "nodemon --inspect app.js",
+		"scrape-recipes": "node scrape-recipes.js",
+		"scrape-recipes-debug": "node --inspect-brk scrape-recipes.js"
+	},
+	"keywords": [
+		"mixologist",
+		"bartender",
+		"drinks"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/DavidBall117/MixologistRecipes.git"
+	},
+	"devDependencies": {
+		"axios": "^0.19.2",
+		"nodemon": "^2.0.4",
+		"uuid": "^8.3.0"
+	},
+	"dependencies": {
+		"body-parser": "^1.19.0",
+		"cors": "^2.8.5",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"express-promise-router": "^4.0.1",
+		"express-validator": "^6.6.1",
+		"jsonfile": "^6.0.1",
+		"swagger-ui-express": "^4.1.4",
+		"yamljs": "^0.3.0"
+	}
 }
