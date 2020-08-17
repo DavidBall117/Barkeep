@@ -1,7 +1,12 @@
 const jsonfile = require(`jsonfile`);
 
+let data = null;
+
 const get = async () => {
-	return jsonfile.readFile(`data.json`);
+	if (!data) {
+		data = jsonfile.readFile(`data.json`);
+	}
+	return data;
 };
 
 module.exports = {

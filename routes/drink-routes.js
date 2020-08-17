@@ -51,8 +51,17 @@ router.get(
 			return validItem;
 		});
 
-		if (items.length === 0) return res.sendStatus(404);
-		return res.send(items);
+		const dtos = [];
+		for (let i = 0; i < items.length; i++) {
+			dtos.push({
+				id: items[i].id,
+				name: items[i].name,
+				image: items[i].image,
+			});
+		}
+
+		if (dtos.length === 0) return res.sendStatus(404);
+		return res.send(dtos);
 	}
 );
 

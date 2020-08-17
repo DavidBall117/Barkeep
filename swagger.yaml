@@ -1,0 +1,195 @@
+swagger: "2.0"
+info:
+  description: "Drink recipes for bartenders."
+  version: "1.0.0"
+  title: "Mixologist Recipes"
+  license:
+    name: "MIT"
+    url: "https://opensource.org/licenses/MIT"
+host: "localhost:5000"
+basePath: "/api"
+schemes:
+  - "http"
+  - "https"
+
+tags:
+  - name: "lookups"
+    description: "Lookup lists for filtering drinks."
+  - name: "drinks"
+    description: "Drink recipes."
+
+paths:
+  /categories:
+    get:
+      tags:
+        - "lookups"
+      summary: "Get all drink categories."
+      produces:
+        - "application/json"
+      responses:
+        "200":
+          description: "Array of categories."
+          schema:
+            type: "array"
+            items:
+              type: "string"
+
+  /serving-glasses:
+    get:
+      tags:
+        - "lookups"
+      summary: "Get all serving glasses."
+      produces:
+        - "application/json"
+      responses:
+        "200":
+          description: "Array of serving glasses."
+          schema:
+            type: "array"
+            items:
+              type: "string"
+
+  /ingredients:
+    get:
+      tags:
+        - "lookups"
+      summary: "Get all ingredients."
+      produces:
+        - "application/json"
+      responses:
+        "200":
+          description: "Array of ingredients."
+          schema:
+            type: "array"
+            items:
+              type: "string"
+
+  /drinks:
+    get:
+      tags:
+        - "drinks"
+      summary: "Get all drinks. Optionally filter with query parameters."
+      produces:
+        - "application/json"
+      parameters:
+        - in: "query"
+          name: "alcoholic"
+          description: "Specify whether you want alcoholic or non-alcoholic drinks."
+          required: false
+          type: "boolean"
+        - in: "query"
+          name: "category"
+          description: "Specify category of the drinks."
+          required: false
+          type: "string"
+        - in: "query"
+          name: "ingredient"
+          description: "Specify drinks that contain a given ingredient."
+          required: false
+          type: "string"
+        - in: "query"
+          name: "glass"
+          description: "Specify serving glass for drinks."
+          required: false
+          type: "string"
+      responses:
+        "200":
+          description: "Array of drink objects."
+          schema:
+            type: "array"
+            items:
+              $ref: "#/definitions/MetaDrink"
+        "400":
+          description: "Request was invalid. Check query parameters."
+        "404":
+          description: "No drinks found."
+
+  /drinks/{id}:
+    get:
+      tags:
+        - "drinks"
+      summary: "Get drink with id."
+      produces:
+        - "application/json"
+      parameters:
+        - in: "path"
+          name: "id"
+          description: "Id for the drink."
+          required: true
+          type: "string"
+          format: "uuid"
+      responses:
+        "200":
+          description: "Drink object."
+          schema:
+            $ref: "#/definitions/Drink"
+        "400":
+          description: "Request was invalid. Check id in path."
+        "404":
+          description: "No drink found."
+
+  /drinks/search/{name}:
+    get:
+      tags:
+        - "drinks"
+      summary: "Get drinks containing name."
+      produces:
+        - "application/json"
+      parameters:
+        - in: "path"
+          name: "name"
+          description: "Name of the drink."
+          required: true
+          type: "string"
+      responses:
+        "200":
+          description: "Array of drink objects."
+          schema:
+            type: "array"
+            items:
+              $ref: "#/definitions/Drink"
+        "400":
+          description: "Request was invalid. Check name in path."
+        "404":
+          description: "No drinks found."
+
+definitions:
+  MetaDrink:
+    type: "object"
+    properties:
+      id:
+        type: "string"
+        format: "uuid"
+      name:
+        type: "string"
+      image:
+        type: "string"
+  Drink:
+    type: "object"
+    properties:
+      id:
+        type: "string"
+        format: "uuid"
+      name:
+        type: "string"
+      category:
+        type: "string"
+      alcoholic:
+        type: "boolean"
+      servingGlass:
+        type: "string"
+      instructions:
+        type: "string"
+      image:
+        type: "string"
+      ingredients:
+        type: "array"
+        items:
+          $ref: "#/definitions/Ingredient"
+  Ingredient:
+    type: "object"
+    properties:
+      name:
+        type: "string"
+      amount:
+        type: "string"
