@@ -5,7 +5,7 @@ const getListOf = async (property) => {
 	const data = await dataUtil.get();
 	const items = new Set();
 	for (let i = 0; i < data.length; i++) {
-		items.add(data[i][property]);
+		items.add(data[i][property].toLocaleLowerCase());
 	}
 	return Array.from(items);
 };
@@ -23,7 +23,7 @@ router.get(`/ingredients`, async (req, res) => {
 	const ingredients = new Set();
 	for (let i = 0; i < data.length; i++) {
 		for (let j = 0; j < data[i].ingredients.length; j++) {
-			ingredients.add(data[i].ingredients[j].name);
+			ingredients.add(data[i].ingredients[j].name.toLocaleLowerCase());
 		}
 	}
 	return res.send(Array.from(ingredients));
