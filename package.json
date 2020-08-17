@@ -1,0 +1,27 @@
+{
+  "name": "mixologistrecipes",
+  "version": "1.0.0",
+  "description": "Drink recipes for batenders.",
+  "main": "app.js",
+  "author": "David Robert Ball",
+  "license": "MIT",
+  "scripts": {
+    "scrape-recipes": "node scrape-recipes.js",
+    "scrape-recipes-debug": "node --inspect-brk scrape-recipes.js"
+  },
+  "keywords": [
+    "mixologist",
+    "bartender",
+    "drinks"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DavidBall117/MixologistRecipes.git"
+  },
+  "devDependencies": {
+    "axios": "^0.19.2",
+    "nodemon": "^2.0.4",
+    "uuid": "^8.3.0"
+  },
+  "dependencies": {}
+}
