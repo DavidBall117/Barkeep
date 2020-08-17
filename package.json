@@ -10,6 +10,7 @@
 		"startn": "nodemon app.js",
 		"startd": "node --inspect app.js",
 		"startnd": "nodemon --inspect app.js",
+		"tests": "mocha tests --recursive --exit",
 		"scrape-recipes": "node scrape-recipes.js",
 		"scrape-recipes-debug": "node --inspect-brk scrape-recipes.js"
 	},
@@ -24,6 +25,9 @@
 	},
 	"devDependencies": {
 		"axios": "^0.19.2",
+		"chai": "^4.2.0",
+		"chai-http": "^4.3.0",
+		"mocha": "^8.1.1",
 		"nodemon": "^2.0.4",
 		"uuid": "^8.3.0"
 	},

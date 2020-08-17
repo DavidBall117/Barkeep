@@ -41,7 +41,11 @@ app.use(`/api-docs`, swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 // error handling
 app.use((err, req, res, next) => {
 	console.error(err);
-	res.sendStatus(500);
+	if (err.name === `BadRequest`) {
+		res.status(400).send(JSON.parse(err.message));
+	} else {
+		res.sendStatus(500);
+	}
 	next();
 });
 
