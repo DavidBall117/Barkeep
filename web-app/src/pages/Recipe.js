@@ -3,7 +3,7 @@ import React from "react";
 // const useStyles = makeStyles((theme) => ({
 // }));
 
-export default function Search() {
+export default function Recipe() {
 	// const classes = useStyles();
-	return <React.Fragment>Search</React.Fragment>;
+	return <React.Fragment>Recipe</React.Fragment>;
 }
