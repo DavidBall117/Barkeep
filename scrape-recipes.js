@@ -4,7 +4,7 @@ const { v4 } = require(`uuid`);
 
 const BASE_URL = `https://www.thecocktaildb.com/api/json/v1/1/search.php?f=`;
 const ALHPABET = `abcdefghijklmnopqrstuvwxyz`;
-const DATA_FILE = `data.json`;
+const DATA_FILE = `data2.js`;
 
 (async () => {
 	// scrape all drinks from thecocktaildb
@@ -52,7 +52,8 @@ const DATA_FILE = `data.json`;
 	// write drinks to a json file
 	try {
 		const data = JSON.stringify(drinks, null, 4);
-		fs.writeFileSync(DATA_FILE, data);
+		const str = `module.exports = ` + data;
+		fs.writeFileSync(DATA_FILE, str);
 	} catch (err) {
 		console.log(err);
 	}

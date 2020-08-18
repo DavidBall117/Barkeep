@@ -42,6 +42,8 @@ app.get(`/*`, (req, res) => {
 app.use((err, req, res, next) => {
 	if (err.name === `BadRequest`) {
 		res.status(400).send(JSON.parse(err.message));
+	} else if (err.name === `NotFound`) {
+		res.sendStatus(404);
 	} else {
 		res.sendStatus(500);
 		console.error(err);

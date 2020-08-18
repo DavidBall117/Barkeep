@@ -1,15 +1,6 @@
-const jsonfile = require(`jsonfile`);
-
-let data = null;
-
-const loadData = async () => {
-	if (!data) {
-		data = await jsonfile.readFile(`data.json`);
-	}
-};
+const data = require(`../data`);
 
 const retrieveListOf = async (property) => {
-	await loadData();
 	const items = new Set();
 	for (let i = 0; i < data.length; i++) {
 		items.add(data[i][property].toLocaleLowerCase());
@@ -24,7 +15,6 @@ const get = async (
 	glass = null,
 	name = null
 ) => {
-	await loadData();
 	const items = data.filter((x) => {
 		let validItem = true;
 		if (
@@ -71,7 +61,6 @@ const get = async (
 };
 
 const getById = async (id) => {
-	await loadData();
 	return data.find((x) => x.id === id);
 };
 
@@ -80,7 +69,6 @@ const getCategories = async () => {
 };
 
 const getIngredients = async () => {
-	await loadData();
 	const ingredients = new Set();
 	for (let i = 0; i < data.length; i++) {
 		for (let j = 0; j < data[i].ingredients.length; j++) {

@@ -19,7 +19,7 @@ tags:
     description: "Drink recipes."
 
 paths:
-  /categories:
+  /lookup/categories:
     get:
       tags:
         - "lookups"
@@ -33,7 +33,7 @@ paths:
             type: "array"
             items:
               type: "string"
-  /serving-glasses:
+  /lookup/serving-glasses:
     get:
       tags:
         - "lookups"
@@ -47,7 +47,7 @@ paths:
             type: "array"
             items:
               type: "string"
-  /ingredients:
+  /lookup/ingredients:
     get:
       tags:
         - "lookups"

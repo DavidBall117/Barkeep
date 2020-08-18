@@ -6,11 +6,11 @@ chai.use(chaiHttp);
 
 const server = require(`../app`);
 
-describe(`GET /api/serving-glasses`, () => {
+describe(`GET /api/lookup/serving-glasses`, () => {
 	it(`should return array of serving glasses`, (done) => {
 		chai
 			.request(server)
-			.get(`/api/serving-glasses`)
+			.get(`/api/lookup/serving-glasses`)
 			.end((err, res) => {
 				expect(err).to.be.null;
 				expect(res).to.have.status(200);

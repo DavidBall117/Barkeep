@@ -6,11 +6,11 @@ chai.use(chaiHttp);
 
 const server = require(`../app`);
 
-describe(`GET /api/drinks/a75c711a-2c9f-44f7-9762-3848165516cc`, () => {
+describe(`GET /api/drinks/0cd6614a-d543-4889-ae5d-9a1a338a6b8c`, () => {
 	it(`should return a Drink object`, (done) => {
 		chai
 			.request(server)
-			.get(`/api/drinks/a75c711a-2c9f-44f7-9762-3848165516cc`)
+			.get(`/api/drinks/0cd6614a-d543-4889-ae5d-9a1a338a6b8c`)
 			.end((err, res) => {
 				expect(err).to.be.null;
 				expect(res).to.have.status(200);

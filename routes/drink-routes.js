@@ -2,6 +2,7 @@ const router = require(`express-promise-router`)();
 const { param, query } = require(`express-validator`);
 const { validateRequest } = require(`./route-middleware`);
 const { drinkRepo } = require(`../repos`);
+const { NotFound } = require(`../errs`);
 
 const dtoGetRecipes = (recipes) => {
 	const dtos = [];
@@ -39,7 +40,7 @@ router.get(
 			req.query.name
 		);
 		const dtos = dtoGetRecipes(items);
-		if (dtos.length === 0) return res.sendStatus(404);
+		if (dtos.length === 0) throw new NotFound(`No recipes match that query.`);
 		return res.send(dtos);
 	}
 );
@@ -50,7 +51,7 @@ router.get(
 	validateRequest,
 	async (req, res) => {
 		const item = await drinkRepo.getById(req.params.id);
-		if (!item) return res.sendStatus(404);
+		if (!item) throw new NotFound(`No recipe found for given id.`);
 		return res.send(item);
 	}
 );
