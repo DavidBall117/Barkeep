@@ -14,7 +14,9 @@ describe(`GET /api/categories`, () => {
 			.end((err, res) => {
 				expect(err).to.be.null;
 				expect(res).to.have.status(200);
-				// expect(res;
+				expect(res.body)
+					.to.be.an(`Array`)
+					.that.is.not.empty.to.include(`String`);
 				done();
 			});
 	});

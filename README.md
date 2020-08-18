@@ -38,7 +38,6 @@
 - PascalCase for classes
 - camelCase for everything else
 - Routes are the endpoints that the API consumer calls to access data and services
-- Utilities are classes and sets of pure functions that are self-contained
 - app.js is the application entry point and contains the application middleware
 
 ## Tools

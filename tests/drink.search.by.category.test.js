@@ -6,39 +6,43 @@ chai.use(chaiHttp);
 
 const server = require(`../app`);
 
-describe(`GET /api/drinks/a75c711a-2c9f-44f7-9762-3848165516cc`, () => {
-	it(`should return a Drink object`, (done) => {
+describe(`GET /api/drinks?category=cocktail`, () => {
+	it(`should return an array of Drink objects`, (done) => {
 		chai
 			.request(server)
-			.get(`/api/drinks/a75c711a-2c9f-44f7-9762-3848165516cc`)
+			.get(`/api/drinks?category=cocktail`)
 			.end((err, res) => {
 				expect(err).to.be.null;
 				expect(res).to.have.status(200);
-				expect(res.body).to.be.an(`Object`);
+				expect(res.body)
+					.to.be.an(`Array`)
+					.that.is.not.empty.to.include(`Object`);
 				done();
 			});
 	});
 });
 
-describe(`GET /api/drinks/5423`, () => {
-	it(`should return a 400 bad request error`, (done) => {
+describe(`GET /api/drinks?category=shot`, () => {
+	it(`should return an array of Drink objects`, (done) => {
 		chai
 			.request(server)
-			.get(`/api/drinks/5423`)
+			.get(`/api/drinks?category=shot`)
 			.end((err, res) => {
 				expect(err).to.be.null;
-				expect(res).to.have.status(400);
-				expect(res.body).to.be.an(`Object`);
+				expect(res).to.have.status(200);
+				expect(res.body)
+					.to.be.an(`Array`)
+					.that.is.not.empty.to.include(`Object`);
 				done();
 			});
 	});
 });
 
-describe(`GET /api/drinks/a75c711a-2c9f-44f7-9762-3848165516c9`, () => {
+describe(`GET /api/drinks?category=somethingtodrink`, () => {
 	it(`should return a 404 not found error`, (done) => {
 		chai
 			.request(server)
-			.get(`/api/drinks/a75c711a-2c9f-44f7-9762-3848165516c9`)
+			.get(`/api/drinks?category=somethingtodrink`)
 			.end((err, res) => {
 				expect(err).to.be.null;
 				expect(res).to.have.status(404);
