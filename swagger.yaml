@@ -33,7 +33,6 @@ paths:
             type: "array"
             items:
               type: "string"
-
   /serving-glasses:
     get:
       tags:
@@ -48,7 +47,6 @@ paths:
             type: "array"
             items:
               type: "string"
-
   /ingredients:
     get:
       tags:
@@ -92,6 +90,11 @@ paths:
           description: "Specify serving glass for drinks."
           required: false
           type: "string"
+        - in: "query"
+          name: "name"
+          description: "Specify name of the drink itself."
+          required: false
+          type: "string"
       responses:
         "200":
           description: "Array of drink objects."
@@ -103,7 +106,6 @@ paths:
           description: "Request was invalid. Check query parameters."
         "404":
           description: "No drinks found."
-
   /drinks/{id}:
     get:
       tags:
@@ -128,31 +130,6 @@ paths:
         "404":
           description: "No drink found."
 
-  /drinks/search/{name}:
-    get:
-      tags:
-        - "drinks"
-      summary: "Get drinks containing name."
-      produces:
-        - "application/json"
-      parameters:
-        - in: "path"
-          name: "name"
-          description: "Name of the drink."
-          required: true
-          type: "string"
-      responses:
-        "200":
-          description: "Array of drink objects."
-          schema:
-            type: "array"
-            items:
-              $ref: "#/definitions/Drink"
-        "400":
-          description: "Request was invalid. Check name in path."
-        "404":
-          description: "No drinks found."
-
 definitions:
   MetaDrink:
     type: "object"
@@ -164,6 +141,10 @@ definitions:
         type: "string"
       image:
         type: "string"
+      ingredients:
+        type: "array"
+        items:
+          type: "string"
   Drink:
     type: "object"
     properties:
