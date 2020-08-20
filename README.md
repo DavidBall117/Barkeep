@@ -45,3 +45,4 @@
 - [SwaggerUI YAML Editor](https://editor.swagger.io/)
 - [Manifest Icon Generator](https://realfavicongenerator.net/)
 - [Material Palette](https://www.materialpalette.com/)
+- [Material UI Colour Tool](https://material.io/resources/color/#!/?view.left=0&view.right=0)

@@ -1,5 +1,5 @@
 import React from "react";
-import { makeStyles, Typography } from "@material-ui/core";
+import { makeStyles, CircularProgress } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
 	root: {
@@ -8,16 +8,17 @@ const useStyles = makeStyles((theme) => ({
 		display: "flex",
 		justifyContent: "center",
 		alignItems: "center",
+		"& > * + *": {
+			marginLeft: theme.spacing(2),
+		},
 	},
 }));
 
-export default function NotFound() {
+export default function MyLoadingIcon() {
 	const classes = useStyles();
 	return (
 		<div className={classes.root}>
-			<Typography variant="h4" component="h1">
-				Page Not Found
-			</Typography>
+			<CircularProgress color="secondary" />
 		</div>
 	);
 }

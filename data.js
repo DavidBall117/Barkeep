@@ -1,6 +1,6 @@
 module.exports = [
 	{
-		id: "0cd6614a-d543-4889-ae5d-9a1a338a6b8c",
+		id: "0492662b-44f7-4b0d-80a4-1471d6419bec",
 		name: "A1",
 		category: "Cocktail",
 		alcoholic: true,
@@ -29,7 +29,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "f34e5441-fff1-49a0-a719-d06e4e1a2654",
+		id: "a017b32e-8f38-4991-b812-8f0cd0f2152c",
 		name: "ABC",
 		category: "Shot",
 		alcoholic: true,
@@ -53,7 +53,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "d7807552-475c-4c89-871b-740aec5fd179",
+		id: "37eb7cd8-2b62-4d78-91ce-2ab93b8e348e",
 		name: "Ace",
 		category: "Cocktail",
 		alcoholic: true,
@@ -86,9 +86,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "6f7ead2a-0d43-4d3a-93c6-f1027d081811",
+		id: "22b94188-acbb-4d55-af4a-b4dcedcbf303",
 		name: "Adam",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -111,9 +111,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "e3535528-5d2b-42a6-93d3-d58baff66ab7",
+		id: "ce66820d-1c06-4ef2-a52f-c849586bf5a0",
 		name: "AT&T",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Highball Glass",
 		instructions: "Pour Vodka and Gin over ice, add Tonic and Stir",
@@ -135,7 +135,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "8b15f7a6-e484-4fc5-98a3-826eb4f71e13",
+		id: "8a649a70-81db-4f4f-9e48-bad4661e929b",
 		name: "ACID",
 		category: "Shot",
 		alcoholic: true,
@@ -156,9 +156,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "7e50c2ed-6328-42df-a577-32627ff8ec9d",
+		id: "7a31d4e1-d686-46d6-9daf-d4effac5cd2d",
 		name: "A. J.",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -177,9 +177,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "c7068a16-8090-4838-a93a-e73af67ea9e2",
+		id: "63eb4cfd-eeba-4a8d-b1cb-06b113b38533",
 		name: "Affair",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Highball glass",
 		instructions:
@@ -206,9 +206,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "2032a4b6-d71f-467c-8d85-0ffc8d54cc1b",
+		id: "d60d009c-ca29-43a1-b98d-70fd3a3ea1d9",
 		name: "Apello",
-		category: "Other / Unknown",
+		category: "Other",
 		alcoholic: false,
 		servingGlass: "Collins Glass",
 		instructions: "Stirr. Grnish with maraschino cherry.",
@@ -234,9 +234,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "cdc3594a-bd1b-4872-8776-197b0ca11b67",
+		id: "4a92a046-d8bf-4bcf-9ae3-bcc1ad30e5a5",
 		name: "Avalon",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Highball glass",
 		instructions:
@@ -267,9 +267,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "299b01e3-cb83-4385-9802-27d47cedcdab",
+		id: "bdd52bd7-c1bf-4795-872e-ebf27b9827c8",
 		name: "Abilene",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Highball glass",
 		instructions:
@@ -292,9 +292,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "9513eba5-70ee-4e5f-bf43-7225da5000e0",
+		id: "91623145-d140-4122-853b-73a14be3b8db",
 		name: "Almeria",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -317,7 +317,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "4ada1b46-3769-4706-a795-f8678ec9aead",
+		id: "ce9f4475-6cb1-4160-b79e-6f18c86f5ff5",
 		name: "Addison",
 		category: "Cocktail",
 		alcoholic: true,
@@ -338,9 +338,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "6f9697d8-2f58-41b8-9182-c20ca01fdbe5",
+		id: "afd4e0f0-f65c-4cd9-86fd-cf70130ffeb6",
 		name: "Acapulco",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Old-fashioned glass",
 		instructions:
@@ -375,9 +375,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "87661417-0fb1-4f3f-971f-fbbe2e71bab6",
+		id: "5de3dd3a-5ced-41ca-9e4c-135aac3edf93",
 		name: "Affinity",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -404,9 +404,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "3baae133-cc37-42db-9e19-f84e98d63011",
+		id: "cf4e3c50-866a-426b-9b2e-f6624ab40b11",
 		name: "Applecar",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -429,7 +429,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "329925e7-d717-4de4-baea-3cbdd485afaa",
+		id: "03e9e6f3-2057-4241-9a33-332a1cf94c94",
 		name: "Aviation",
 		category: "Cocktail",
 		alcoholic: true,
@@ -454,9 +454,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "1a4ed409-7b49-4bef-addd-5ebd639495ed",
+		id: "d7ce93c7-6b7d-4e5c-a8db-f9fefcdb4264",
 		name: "Alexander",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -483,9 +483,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "bf8a8c82-3d9a-4276-b0f0-770204b11922",
+		id: "b59a8168-3547-4d79-8155-f5e26ab323a3",
 		name: "Algonquin",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -508,9 +508,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "02505e43-badc-44a7-8a4c-1dacc503fa41",
+		id: "2da35ec7-ac5f-4547-83cb-eefa39626a3b",
 		name: "Allegheny",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -541,9 +541,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "e43f1bbd-a37f-4bf7-a10e-70b66000b297",
+		id: "14cd5fee-9b57-4fd6-812b-109d9658d257",
 		name: "Artillery",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -566,7 +566,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "14e35d9e-390a-42bb-b2f9-3108ac8a8fba",
+		id: "80f6ad55-b070-47f1-bee8-aee78afa0477",
 		name: "Afterglow",
 		category: "Cocktail",
 		alcoholic: false,
@@ -590,9 +590,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "8bc8cd48-944e-416c-b2db-8e9d096232fc",
+		id: "0305e06c-0ab6-4e42-a985-840482307761",
 		name: "Autodafé",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Highball glass",
 		instructions:
@@ -615,9 +615,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "35484d69-6a57-4694-8990-1bb45bdf66ba",
+		id: "66b385c8-bee3-4bab-97ca-40ccfe581419",
 		name: "Afternoon",
-		category: "Coffee / Tea",
+		category: "Coffee or Tea",
 		alcoholic: true,
 		servingGlass: "Collins Glass",
 		instructions:
@@ -648,9 +648,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "7c309fd5-8a38-4d13-9913-e1c07bdbf69c",
+		id: "4da621e2-f862-47cb-abb8-a060ce248e73",
 		name: "After sex",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Highball glass",
 		instructions:
@@ -673,7 +673,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "788e19af-f2be-4fe0-8d34-fa184caee5a9",
+		id: "364ea7d9-8e07-4f37-a6a4-b6a71959917f",
 		name: "B-53",
 		category: "Shot",
 		alcoholic: true,
@@ -698,7 +698,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "77c98154-b0ff-4401-adc9-51911ba4d6c7",
+		id: "4dbabf6f-7b0f-4881-a58e-26ed29b2b7f9",
 		name: "B-52",
 		category: "Shot",
 		alcoholic: true,
@@ -722,7 +722,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "934ffcf3-c6f8-4b1c-a58b-bf901a8ac086",
+		id: "278890b2-9d7a-468f-885e-afb3ee9aa062",
 		name: "Bijou",
 		category: "Cocktail",
 		alcoholic: true,
@@ -750,9 +750,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "75958ab5-3053-4526-8a59-b71a4c60bebd",
+		id: "c1791cb4-3e34-440d-920f-fcf46f1e3e05",
 		name: "Boxcar",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Whiskey sour glass",
 		instructions:
@@ -783,7 +783,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "f18e30eb-ef48-48a7-975f-e9699176d3dc",
+		id: "afc9185f-79c9-441f-81e2-459c1266c4e8",
 		name: "Big Red",
 		category: "Shot",
 		alcoholic: true,
@@ -803,9 +803,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "5f2d2838-386a-4ed1-b0e3-8c230c3e8585",
+		id: "14bca533-f125-4ff6-843f-03aafd418abd",
 		name: "Bellini",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Champagne Flute",
 		instructions:
@@ -824,9 +824,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "7b63246d-be9f-4fd3-8e01-60deb7fec5a5",
+		id: "9a82957f-aec8-46f1-9e02-007d8cb10625",
 		name: "Bramble",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Old-Fashioned glass",
 		instructions:
@@ -853,9 +853,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "7dcbf385-ca11-4989-a380-466bb8c37fff",
+		id: "1143b897-c459-4cca-a111-bbbb67f92f45",
 		name: "Balmoral",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -882,9 +882,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "db4fd2d0-7dac-4a9c-9ab0-1ced1f75b9dd",
+		id: "7f37eb93-9fd9-469f-9596-3d5f335c8de2",
 		name: "Bluebird",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -919,7 +919,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "fa27363b-ca96-4e1c-b6e0-bef15b93181a",
+		id: "03ff016d-e669-4933-8e2d-259da247e7b2",
 		name: "Brooklyn",
 		category: "Cocktail",
 		alcoholic: true,
@@ -952,9 +952,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "81210ca7-ede8-4ad9-8c1c-7bd6afa6dfae",
+		id: "710237a4-1a1d-4efd-80b6-265555bb327d",
 		name: "Boomerang",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -985,7 +985,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "b7c93318-2467-48f1-948b-4d8472fa4aa0",
+		id: "3d8af024-a0d0-4926-961d-fccef0ff08ef",
 		name: "Bora Bora",
 		category: "Cocktail",
 		alcoholic: false,
@@ -1014,9 +1014,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "96df8e47-4434-42be-9797-76002fae8121",
+		id: "8107349e-8119-4884-9306-6eccea8abe50",
 		name: "Barracuda",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Margarita glass",
 		instructions:
@@ -1047,7 +1047,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "60090341-87e5-460c-9990-e910b7c2eb96",
+		id: "815aa398-26e1-40c4-a6cb-cd58c012b19e",
 		name: "Buccaneer",
 		category: "Beer",
 		alcoholic: true,
@@ -1068,7 +1068,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "7b597f08-1595-4970-ae65-63b285cec77b",
+		id: "8b557e6c-848d-422f-9a7d-da3870e2e7ef",
 		name: "Brigadier",
 		category: "Cocktail",
 		alcoholic: true,
@@ -1092,7 +1092,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "5b4e0a17-6cdd-4cab-b9d4-199fc9502722",
+		id: "2e9402f4-e87b-4349-a1e6-7a0b2c91cb44",
 		name: "Broadside",
 		category: "Cocktail",
 		alcoholic: true,
@@ -1125,9 +1125,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "c26b75fe-470d-4794-bdbb-b32930565651",
+		id: "49f9dfa1-c79b-43a8-bdb1-7b65a79aa775",
 		name: "Blackthorn",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -1150,7 +1150,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "f8d326a9-366a-4030-88ba-56849beabf03",
+		id: "b1eb214d-663c-4221-9f7d-e957690f9fa8",
 		name: "Bob Marley",
 		category: "Shot",
 		alcoholic: true,
@@ -1174,7 +1174,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "7e66e65b-18ab-4799-b2cf-ab07774261d7",
+		id: "e0b926e9-48e1-4b74-8f16-df553ee50f5f",
 		name: "Bubble Gum",
 		category: "Shot",
 		alcoholic: true,
@@ -1202,9 +1202,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "bd2a794d-1145-442e-954f-2c23de8a315d",
+		id: "862f5aaa-8131-42d8-ab31-be53366f4156",
 		name: "Bible Belt",
-		category: "Other / Unknown",
+		category: "Other",
 		alcoholic: true,
 		servingGlass: "Highball glass",
 		instructions: "Mix all ingredients, and pour over ice.",
@@ -1230,9 +1230,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "0ea1fe7e-e739-49c1-abcd-ca633a9a5e03",
+		id: "b53b4cc4-5a19-41b2-803f-a21b4539c37e",
 		name: "Brain Fart",
-		category: "Punch / Party Drink",
+		category: "Party Drink",
 		alcoholic: true,
 		servingGlass: "Punch bowl",
 		instructions:
@@ -1267,9 +1267,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "13de6b20-f04f-4b73-a02d-a3cac0d6b12e",
+		id: "dd565ae2-37c5-452d-bbbb-6af1d4e40968",
 		name: "Bloody Mary",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Old-fashioned glass",
 		instructions:
@@ -1304,9 +1304,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "a37c0977-240b-4497-a5cb-a6041d1a50b6",
+		id: "3f811755-1209-4a2c-a80d-4614d0bfbd30",
 		name: "Blue Lagoon",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Highball glass",
 		instructions:
@@ -1333,9 +1333,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "ddb283b2-842f-4474-81c3-273cc153d173",
+		id: "06082be6-5968-4f0c-99b5-bc55a772315b",
 		name: "Boston Sour",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Whiskey sour glass",
 		instructions:
@@ -1370,9 +1370,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "267412e8-7a96-4dc2-a971-655bbdf32593",
+		id: "6298e933-57c3-44ea-95d2-c0da9a4ef417",
 		name: "Brandy Flip",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Whiskey sour glass",
 		instructions:
@@ -1403,9 +1403,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "9bcd8810-411d-4184-92a8-742ecf26e9bb",
+		id: "a5c05e18-4d0c-481a-bafc-1c93bf1adc51",
 		name: "Casino",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -1436,9 +1436,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "1f33fec9-270e-4677-b16f-edb96c79b4d3",
+		id: "a8444497-2bfb-489c-872e-c1f046fe30cd",
 		name: "Caipirinha",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Old-fashioned glass",
 		instructions:
@@ -1461,9 +1461,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "38f751c4-a1f0-4d16-92fa-a08755e66d15",
+		id: "15c0331a-fb6d-47c1-a4ab-b183e46e2299",
 		name: "Cherry Rum",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -1486,9 +1486,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "03435a0a-1bc9-4664-97df-21285bc5cb87",
+		id: "46ed26a9-14a0-48f6-babb-5684c9e3e4fb",
 		name: "Cuba Libre",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Highball glass",
 		instructions:
@@ -1511,9 +1511,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "3a942b2f-9004-4aa6-9f72-34911c8bd128",
+		id: "441f8011-b583-45bf-8894-17299658e373",
 		name: "Cuba Libra",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Highball glass",
 		instructions:
@@ -1540,9 +1540,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "343cc203-6c3e-412d-8523-8d52330fcbef",
+		id: "d5841a25-fd2f-4177-a4dc-a86b83560390",
 		name: "Cafe Savoy",
-		category: "Coffee / Tea",
+		category: "Coffee or Tea",
 		alcoholic: true,
 		servingGlass: "Coffee mug",
 		instructions:
@@ -1569,7 +1569,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "f5586bf9-673b-4dc2-a27d-bd2322ff6dd1",
+		id: "fb152638-3e0d-43c2-9eb8-1ac54c301984",
 		name: "Cream Soda",
 		category: "Cocktail",
 		alcoholic: true,
@@ -1590,7 +1590,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "c17d8dae-0205-4a81-aa3e-d56da5c265b9",
+		id: "d10eda7f-f180-49e7-8a97-740082114d68",
 		name: "Corn n Oil",
 		category: "Cocktail",
 		alcoholic: true,
@@ -1623,9 +1623,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "e1eae6db-bb6b-45ef-88ad-8c2aa5ec48e0",
+		id: "ec9a1886-361e-436f-a4c7-cc7c2a9fb536",
 		name: "Casa Blanca",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -1652,9 +1652,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "f4430c81-e622-4bbc-aea4-97371dfe1570",
+		id: "36ac4fe0-78a4-4087-93df-d2d218edb3a5",
 		name: "Clover Club",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -1681,9 +1681,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "8198d984-dc16-4796-9d86-25887eb7826d",
+		id: "648543dd-49e9-4a16-9f09-8fd339afb2ac",
 		name: "Citrus Coke",
-		category: "Soft Drink / Soda",
+		category: "Soft Drink",
 		alcoholic: true,
 		servingGlass: "Highball Glass",
 		instructions:
@@ -1702,9 +1702,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "07340107-6fdb-4c9b-83de-37f43dc9f5dd",
+		id: "b1f2d48f-4ee9-4951-89ec-c97adbb69710",
 		name: "Chicago Fizz",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Highball glass",
 		instructions:
@@ -1739,9 +1739,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "169fe330-eac1-4483-adb2-095320a312d0",
+		id: "0e060295-b3e3-4730-b6df-e0ed3886b4e1",
 		name: "City Slicker",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -1764,9 +1764,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "e363634b-53c9-4722-8efb-6be740fd44ff",
+		id: "a02a429c-56b3-4840-b5d0-6a4abed3c7b7",
 		name: "Coffee-Vodka",
-		category: "Homemade Liqueur",
+		category: "Liqueur",
 		alcoholic: true,
 		servingGlass: "Collins Glass",
 		instructions:
@@ -1801,9 +1801,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "58375223-e957-4b0c-a204-77e33fa4f494",
+		id: "bf858257-613a-41f0-b4ef-d0a9775e6179",
 		name: "Caipirissima",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Collins Glass",
 		instructions:
@@ -1830,7 +1830,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "d5689eeb-2bd6-4371-8cf6-84e9f22e8b63",
+		id: "d9660480-c6d9-453d-8643-8a05a95224d0",
 		name: "Campari Beer",
 		category: "Beer",
 		alcoholic: true,
@@ -1850,7 +1850,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "136a8b19-7b8f-4738-9028-00ed350c3f68",
+		id: "2b871c6f-6380-4b23-93d6-d77dd6fb99ee",
 		name: "Cosmopolitan",
 		category: "Cocktail",
 		alcoholic: true,
@@ -1879,9 +1879,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "3c39fae7-b78d-4f4c-9fe1-7c96d86ffc2f",
+		id: "a602a6f6-4f50-4ade-a15c-80f585fac879",
 		name: "Casino Royale",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Whiskey sour glass",
 		instructions:
@@ -1912,9 +1912,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "de71f1e1-136e-4c9d-b9b5-2fcd9636ea89",
+		id: "a54b904e-2e6f-4494-b637-a3dff08ded9e",
 		name: "Clove Cocktail",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -1937,9 +1937,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "3737ac03-6887-41ef-b84b-e5597d02a592",
+		id: "48ddcb5b-80fd-4061-9356-65083a9a8b32",
 		name: "Coffee Liqueur",
-		category: "Homemade Liqueur",
+		category: "Liqueur",
 		alcoholic: true,
 		servingGlass: "Collins Glass",
 		instructions:
@@ -1970,7 +1970,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "14434ba7-d70c-4d8e-a7cd-c42e5ec1602f",
+		id: "26519aa5-1af3-4eef-9c66-d7a3a6649019",
 		name: "Chocolate Milk",
 		category: "Shot",
 		alcoholic: true,
@@ -1995,9 +1995,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "6138b2ad-9494-4ae0-8c8a-a3c435082102",
+		id: "3c079694-7e52-43b0-84e7-1733e0f4bc04",
 		name: "Coke and Drops",
-		category: "Soft Drink / Soda",
+		category: "Soft Drink",
 		alcoholic: false,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -2016,7 +2016,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "67793602-d884-4da4-bf34-108f6d04e59e",
+		id: "1d7ea2ca-23e2-43ac-9709-220dd711a4e6",
 		name: "Chocolate Drink",
 		category: "Cocoa",
 		alcoholic: false,
@@ -2041,9 +2041,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "01e91c4e-74be-4fdd-9243-005dc078556e",
+		id: "1e06119f-d3d3-4fa6-88a4-6e4c7183f7a3",
 		name: "Creme de Menthe",
-		category: "Homemade Liqueur",
+		category: "Liqueur",
 		alcoholic: true,
 		servingGlass: "Collins Glass",
 		instructions:
@@ -2074,9 +2074,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "49efe44c-4ade-4f36-a11d-ae8a4f97e33f",
+		id: "44adcbdf-a57d-4559-ae7b-8f9c6b3b28ef",
 		name: "Cranberry Punch",
-		category: "Punch / Party Drink",
+		category: "Party Drink",
 		alcoholic: false,
 		servingGlass: "Punch Bowl",
 		instructions:
@@ -2107,9 +2107,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "0669ba88-2c95-46ab-8b8f-50fe873fd7a9",
+		id: "618e61eb-ca28-4507-a1a3-24fdd7130194",
 		name: "Derby",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -2132,7 +2132,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "818e6d70-7060-4507-a775-79ffa6432d49",
+		id: "20ac0aa9-c149-4aa0-9032-d312c2bd5bed",
 		name: "Diesel",
 		category: "Beer",
 		alcoholic: true,
@@ -2157,9 +2157,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "15acbf95-5c40-4eba-87cd-f210b34c1d8e",
+		id: "4f1efe9c-71ea-4c6a-95e7-cb5bff0acd6c",
 		name: "Daiquiri",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -2182,9 +2182,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "9174c9ef-a98a-4e7a-a494-ebf28667a463",
+		id: "e25ae61b-e5e6-475c-a51e-48866d1a7c12",
 		name: "Danbooka",
-		category: "Coffee / Tea",
+		category: "Coffee or Tea",
 		alcoholic: true,
 		servingGlass: "Coffee Mug",
 		instructions: "pour it in and mix it.",
@@ -2202,9 +2202,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "589ce4a5-2f9d-4ffc-bb28-0fb86069d743",
+		id: "f65f471e-77fc-4a52-9c9c-ff9efe6edf60",
 		name: "Dragonfly",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Highball glass",
 		instructions:
@@ -2227,9 +2227,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "a7d2d682-22d3-490f-b721-d00aa427bcc6",
+		id: "5adc5b04-3f28-4540-abae-57c3a28875ad",
 		name: "Downshift",
-		category: "Punch / Party Drink",
+		category: "Party Drink",
 		alcoholic: true,
 		servingGlass: "Hurricane glass",
 		instructions:
@@ -2256,9 +2256,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "0029b07f-cb57-44ef-b169-3235958c94c7",
+		id: "db2a1c98-bb5c-475d-9d47-b5a397ef4b99",
 		name: "Dry Rob Roy",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -2281,7 +2281,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "ac49c7c3-c570-4dff-81e7-ff274427861b",
+		id: "01a3ee00-25c5-40c7-aa91-d70f05f9618e",
 		name: "Dry Martini",
 		category: "Cocktail",
 		alcoholic: true,
@@ -2306,7 +2306,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "ebc936e5-f648-45d8-a44f-16780011bafa",
+		id: "18233ef4-4a59-48e1-8a23-045de9d1cfa3",
 		name: "Dirty Nipple",
 		category: "Shot",
 		alcoholic: true,
@@ -2330,7 +2330,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "6c13ef52-d9e3-43ab-a6f0-04d3ceacf173",
+		id: "91fcc41c-c9fc-43ed-8700-a2ee9c9cf29b",
 		name: "Dirty Martini",
 		category: "Cocktail",
 		alcoholic: true,
@@ -2363,9 +2363,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "0099ad8e-806a-4578-86ee-5922da98696f",
+		id: "326ce2ba-9746-4a40-ace2-0983e68656d3",
 		name: "Darkwood Sling",
-		category: "Soft Drink / Soda",
+		category: "Soft Drink",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -2392,7 +2392,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "58a21fc5-9361-4d1d-81bd-edf951addf9f",
+		id: "51863c79-09df-47e8-ab7d-42c7d98117a0",
 		name: "Dark Caipirinha",
 		category: "Cocktail",
 		alcoholic: true,
@@ -2417,7 +2417,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "731f1284-4176-4835-b7dc-92d7af50218f",
+		id: "78fa4530-32b2-4517-b152-19f56eab680c",
 		name: "Duchamp's Punch",
 		category: "Cocktail",
 		alcoholic: true,
@@ -2458,9 +2458,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "de4a9276-fd8b-4d39-8e91-1c41df819394",
+		id: "b7578e73-d871-40c4-8601-57fe503d9bb9",
 		name: "Dark and Stormy",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Highball glass",
 		instructions:
@@ -2479,7 +2479,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "211f1530-b4c9-471c-b1e0-e34c56cb8e15",
+		id: "765b5b13-8fd4-4e95-bb76-6e0000dcff11",
 		name: "Damned if you do",
 		category: "Shot",
 		alcoholic: true,
@@ -2500,9 +2500,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "f78ee4f5-62e4-4807-a2ba-5a2c0d24606d",
+		id: "10684814-38e5-4bcc-aed2-3922fba04f97",
 		name: "Dubonnet Cocktail",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -2529,7 +2529,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "de6b309a-4a86-4d26-8ed6-e1eeaedfb386",
+		id: "824af3d8-76ef-47c2-9807-d97008397934",
 		name: "Drinking Chocolate",
 		category: "Cocoa",
 		alcoholic: false,
@@ -2566,9 +2566,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "38ae6f40-124f-461d-bbef-37bab3b63ac5",
+		id: "58b22790-6276-47bb-9e90-d30d99a459ba",
 		name: "Egg Cream",
-		category: "Other / Unknown",
+		category: "Other",
 		alcoholic: false,
 		servingGlass: "Coffee mug",
 		instructions:
@@ -2591,9 +2591,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "388b80cb-f37a-422f-b3ba-6e81e7dd6eb1",
+		id: "abe19c36-191e-48d9-86eb-4def03a9e51c",
 		name: "Egg Nog #4",
-		category: "Punch / Party Drink",
+		category: "Party Drink",
 		alcoholic: false,
 		servingGlass: "Punch bowl",
 		instructions:
@@ -2648,9 +2648,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "edcc6343-b538-46e2-814b-c9ce3faa23c3",
+		id: "4696ad01-94d8-4c28-bc8a-d89e4b4d6c3e",
 		name: "English Highball",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Highball glass",
 		instructions:
@@ -2681,7 +2681,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "7155aa56-0e1b-47a4-a488-c5810adf5aef",
+		id: "40b2290b-a9b3-4bc6-84f6-7006627e09e7",
 		name: "Espresso Martini",
 		category: "Cocktail",
 		alcoholic: true,
@@ -2706,7 +2706,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "7d059531-646b-43e8-b9fe-124771e5bdf3",
+		id: "8d64e8b9-0dcd-4c32-9b39-fe7d4628ca41",
 		name: "Espresso Rumtini",
 		category: "Cocktail",
 		alcoholic: true,
@@ -2735,9 +2735,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "6d255be5-ea14-42f5-bf86-662a23b7451d",
+		id: "8bd38547-be84-45ec-904b-b4d355b23c78",
 		name: "Egg Nog - Healthy",
-		category: "Punch / Party Drink",
+		category: "Party Drink",
 		alcoholic: false,
 		servingGlass: "Collins Glass",
 		instructions:
@@ -2776,9 +2776,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "329fb97a-4bd4-4dec-8fdf-6c4fc36e1d82",
+		id: "68aeab45-fdf3-471c-9e52-725e8dbf7473",
 		name: "English Rose Cocktail",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -2813,9 +2813,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "9eab15db-cce9-4c85-939e-696080b253a9",
+		id: "c64dea12-6ccc-4acd-873e-574d3aa0054e",
 		name: "Egg-Nog - Classic Cooked",
-		category: "Punch / Party Drink",
+		category: "Party Drink",
 		alcoholic: false,
 		servingGlass: "Pitcher",
 		instructions:
@@ -2846,7 +2846,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "6734d2f8-a464-4df3-9b96-94472426b2e8",
+		id: "4f37fa44-9f15-4298-b273-602d3bd2d5f8",
 		name: "Empellón Cocina's Fat-Washed Mezcal",
 		category: "Cocktail",
 		alcoholic: true,
@@ -2871,9 +2871,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "cbbf7f26-89c4-402b-b592-f86f9580801e",
+		id: "7354942d-5edc-461b-82ba-092f4fc45981",
 		name: "Frappé",
-		category: "Coffee / Tea",
+		category: "Coffee or Tea",
 		alcoholic: false,
 		servingGlass: "Highball Glass",
 		instructions:
@@ -2896,9 +2896,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "7c375684-2b01-44d7-a829-744db5691277",
+		id: "a1f37bde-5b26-4c30-8a31-4f154609ea11",
 		name: "Foxy Lady",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -2921,9 +2921,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "8fc3f12e-998c-4707-baf5-2f45f43d9c60",
+		id: "5fb09325-e666-4e5c-a751-8a2de946383f",
 		name: "French 75",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Collins glass",
 		instructions:
@@ -2958,9 +2958,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "2ed8cde0-0af8-40c0-aa36-482aedbe9694",
+		id: "1f3881c4-8cab-4858-a9aa-b0e9df8f3f17",
 		name: 'French "75"',
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Collins glass",
 		instructions:
@@ -2995,9 +2995,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "41c9922d-799a-4ec9-98fb-bf40a5537a33",
+		id: "bd1975b9-d700-4bc5-97d5-0fd6c144c14a",
 		name: "Frisco Sour",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Whiskey sour glass",
 		instructions:
@@ -3032,9 +3032,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "d5a44c48-8e71-47e6-8d79-a34aa591744e",
+		id: "221eb60e-6c41-49a0-905d-14cd652b2ee6",
 		name: "Fruit Shake",
-		category: "Other / Unknown",
+		category: "Other",
 		alcoholic: false,
 		servingGlass: "Highball Glass",
 		instructions: "Blend til smooth.",
@@ -3064,9 +3064,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "3dc1664a-7104-45db-a96f-5618bd21e2f4",
+		id: "2e73b862-c413-4da2-b2f5-f327eefb3db5",
 		name: "Fruit Cooler",
-		category: "Other / Unknown",
+		category: "Other",
 		alcoholic: false,
 		servingGlass: "Highball Glass",
 		instructions:
@@ -3105,7 +3105,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "c500f4c5-2f98-43f0-a6a4-464f0c61da4f",
+		id: "5dde0b4e-9f2e-4528-b76d-83f9f16cfe39",
 		name: "Freddy Kruger",
 		category: "Shot",
 		alcoholic: true,
@@ -3129,9 +3129,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "5515e357-b69b-45da-b4d5-2a55b6a889a8",
+		id: "9c5861ea-157c-490b-91d6-86d7ef6733b3",
 		name: "Fuzzy Asshole",
-		category: "Coffee / Tea",
+		category: "Coffee or Tea",
 		alcoholic: true,
 		servingGlass: "Coffee mug",
 		instructions:
@@ -3150,7 +3150,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "7ebd97bc-f4cb-43c7-a77d-03137def1548",
+		id: "2b5b3fde-7a43-4974-9d06-a7373938ec4f",
 		name: "Funk and Soul",
 		category: "Cocktail",
 		alcoholic: true,
@@ -3183,7 +3183,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "bb85aa70-fc46-475f-a81e-cb9b4ca8830d",
+		id: "ba5e6042-4281-44b6-b395-8a208ce0f2c2",
 		name: "French Martini",
 		category: "Cocktail",
 		alcoholic: true,
@@ -3208,7 +3208,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "3817220d-61f0-4644-b486-92f03aa57f0a",
+		id: "214d7a19-5621-4092-b7fa-c04fee30d744",
 		name: "French Negroni",
 		category: "Cocktail",
 		alcoholic: true,
@@ -3237,9 +3237,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "3e34985f-69c2-4cea-a39e-247418578665",
+		id: "1ed0e234-9194-494e-ab90-15a59b83212c",
 		name: "Flying Dutchman",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Old-fashioned glass",
 		instructions:
@@ -3258,9 +3258,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "663a13b9-f612-4bc6-8ed5-6b6374dd6c90",
+		id: "2bd39c88-9f9f-4962-9f0a-e0ab93b69dbd",
 		name: "Frozen Daiquiri",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Champagne flute",
 		instructions:
@@ -3295,9 +3295,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "c3c563ad-3342-4d90-b666-1f8fd03d996a",
+		id: "475ae622-3d0e-45b8-9258-b02b9242ac5d",
 		name: "Fruit Flip-Flop",
-		category: "Other / Unknown",
+		category: "Other",
 		alcoholic: false,
 		servingGlass: "Highball Glass",
 		instructions:
@@ -3316,7 +3316,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "876bfeaf-7935-4dc1-a490-d54261bd2805",
+		id: "472c4571-076a-4636-b4f7-50de35730bd2",
 		name: "Fahrenheit 5000",
 		category: "Shot",
 		alcoholic: true,
@@ -3341,9 +3341,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "2dac2006-4cff-4e57-ad9a-74f9391576b8",
+		id: "49fe31ad-470b-4d72-bf62-64fb55ded0f7",
 		name: "Flying Scotchman",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -3370,9 +3370,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "1df80888-55fb-4ca5-a2d1-1b2c2bb72152",
+		id: "5be50c07-9247-4071-bfc4-b7c29d00e1e7",
 		name: "French Connection",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Old-fashioned glass",
 		instructions:
@@ -3391,7 +3391,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "b259e5c1-56f1-4eab-ac3f-ca1d5d4f5aae",
+		id: "443321d4-4832-491a-8f11-a654c79df091",
 		name: "Flaming Dr. Pepper",
 		category: "Shot",
 		alcoholic: true,
@@ -3424,9 +3424,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "98306215-73ce-4a62-8947-d25a1541c61e",
+		id: "e7988263-9a32-4114-96ed-10b6a00eebcc",
 		name: "Flander's Flake-Out",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Collins Glass",
 		instructions: "Bang 'em both in.",
@@ -3444,7 +3444,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "1fe88192-9a56-42fa-a357-48585650f610",
+		id: "7020c0ee-ac11-4dbc-9816-e29ad80b033c",
 		name: "Flaming Lamborghini",
 		category: "Cocktail",
 		alcoholic: true,
@@ -3473,9 +3473,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "1fa1ca7f-7ff4-45d6-8917-5cf717939084",
+		id: "e0ee4c1a-9345-4fdd-ab64-3e812dcf79bb",
 		name: "Frozen Mint Daiquiri",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Old-fashioned glass",
 		instructions:
@@ -3502,9 +3502,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "1f075cdb-d690-46b9-81e8-e9a727b2d58c",
+		id: "da2240c9-a04e-42f3-b957-dd381db4dbac",
 		name: "Frozen Pineapple Daiquiri",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail Glass",
 		instructions:
@@ -3531,9 +3531,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "f9e09271-f8eb-4731-a2ec-674d604c157e",
+		id: "49c2961f-8b8e-4fea-a960-75d0b4f0456e",
 		name: "GG",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: false,
 		servingGlass: "Collins Glass",
 		instructions:
@@ -3556,7 +3556,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "e1549726-b45e-4afd-9a70-a6274755ff5f",
+		id: "8342f46b-9655-4d4e-a378-954a2c1d99dc",
 		name: "Gimlet",
 		category: "Cocktail",
 		alcoholic: true,
@@ -3585,9 +3585,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "7fa30044-d013-4b43-ba76-9f62886e6647",
+		id: "9d796954-75e1-4ef0-8438-a68f36202c94",
 		name: "Gin Fizz",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Highball glass",
 		instructions:
@@ -3614,9 +3614,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "fa223990-716c-42ef-bd95-5b6a2de925f5",
+		id: "b57b68ed-7264-4b9e-93df-25a10dbeb5db",
 		name: "Gin Sour",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Whiskey sour glass",
 		instructions:
@@ -3647,9 +3647,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "8960ad2f-9e4e-4e10-b856-ccd1d4486549",
+		id: "163c42b6-979a-4765-8edc-b7624031ea1b",
 		name: "Godchild",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Champagne flute",
 		instructions:
@@ -3672,9 +3672,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "b8260006-cbcf-499f-a6a9-0da85e5987d1",
+		id: "d0a81043-de00-4042-bc12-95bafcaa3ccd",
 		name: "Gin Daisy",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Old-fashioned glass",
 		instructions:
@@ -3709,9 +3709,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "88cd4342-7ff8-41bb-9d9e-331479a0d3b4",
+		id: "90485c0c-5023-46e1-9cfe-adad0dbe976e",
 		name: "Gin Sling",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Old-fashioned glass",
 		instructions:
@@ -3742,9 +3742,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "9b0375d8-bc97-4955-951d-70e209271db4",
+		id: "a0bca457-3688-4e0c-b66f-ded3ecf1fffe",
 		name: "Gin Smash",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Old-fashioned glass",
 		instructions:
@@ -3779,9 +3779,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "764312fd-c6c4-42d8-a257-468f4738938a",
+		id: "111eaf57-1aee-42f6-b763-f6c9e2c805b3",
 		name: "Gin Toddy",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Old-fashioned glass",
 		instructions:
@@ -3808,9 +3808,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "d165f9b7-828b-4dfb-8407-12301352ff7c",
+		id: "ead243c6-79a1-43f5-b2b8-7c0ed62ae123",
 		name: "Godfather",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Old-fashioned glass",
 		instructions:
@@ -3829,9 +3829,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "fa8f72ea-f623-49f0-a04b-0a780d06088d",
+		id: "f1e9dc20-ce8a-4469-9ebb-3c3b5e6d33d0",
 		name: "Godmother",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Old-fashioned glass",
 		instructions:
@@ -3850,7 +3850,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "9796ac82-103b-4851-a634-cbc30ed5bd97",
+		id: "bb2e2f14-fe9a-4f0e-bbfa-1d7ccd3f143c",
 		name: "Gagliardo",
 		category: "Cocktail",
 		alcoholic: true,
@@ -3879,9 +3879,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "fc9ea23d-6ad7-4d98-bf7f-56cf12166da3",
+		id: "a520c9cc-75d0-45d0-82fd-05a05521abbe",
 		name: "Gluehwein",
-		category: "Punch / Party Drink",
+		category: "Party Drink",
 		alcoholic: false,
 		servingGlass: "Irish coffee cup",
 		instructions:
@@ -3916,7 +3916,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "60fa3dfb-50fc-438e-a18d-fc6bb2bb81f3",
+		id: "7d279431-d392-4cea-ae8d-57fd85587f5b",
 		name: "Greyhound",
 		category: "Cocktail",
 		alcoholic: true,
@@ -3937,9 +3937,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "a7caf5bc-86b4-457d-b802-6a9ca3b8055e",
+		id: "a1d78c71-0571-41f4-8990-182edabbceb6",
 		name: "Gin Cooler",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Collins glass",
 		instructions:
@@ -3970,9 +3970,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "a190237b-d76a-434a-9cc7-0ef2843647b8",
+		id: "d0b462b7-e923-4130-8f2a-1a81eb1e43de",
 		name: "Gin Squirt",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Highball glass",
 		instructions:
@@ -4007,9 +4007,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "1d1f63d3-82d8-448e-bfad-7a03c1eac7d2",
+		id: "766468a0-acf5-4a4a-a73a-ccdd3ae5adae",
 		name: "Grand Blue",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Old-fashioned glass",
 		instructions: "Serve in an old fashioned glass.",
@@ -4035,7 +4035,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "64ec11cd-df39-4c58-9aeb-483864fcb90d",
+		id: "971a8285-1ee6-4732-8924-c2e84bcefb6a",
 		name: "Gin Rickey",
 		category: "Cocktail",
 		alcoholic: true,
@@ -4068,9 +4068,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "2fc75395-0a33-49e2-94c8-d75a4f8e5ade",
+		id: "eef00fc9-ee0e-410b-b675-f65119d827f6",
 		name: "Gin Swizzle",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Highball glass",
 		instructions:
@@ -4101,9 +4101,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "6c784b27-de5b-403c-9a58-348a6590b43c",
+		id: "c55541d5-ce0f-42c6-9a24-99cb98906ac6",
 		name: "Grass Skirt",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Old-fashioned glass",
 		instructions:
@@ -4134,9 +4134,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "32d71a90-ac04-4e5e-a4a1-4a02f3cabe39",
+		id: "f7199094-c488-409c-9945-e5687edf0946",
 		name: "Grim Reaper",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Old-fashioned glass",
 		instructions:
@@ -4159,9 +4159,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "6453dba1-c546-409f-8e9b-1954ab296a54",
+		id: "b30663d9-dc95-4b9a-8dfd-756c9aa8792c",
 		name: "Grasshopper",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -4184,9 +4184,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "102e3546-7f92-44b9-b684-ebcd47acd4b3",
+		id: "c13e368c-8e28-46af-8867-6815e179e624",
 		name: "Grizzly Bear",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Collins Glass",
 		instructions: "Served over ice. Sounds nasty, but tastes great.",
@@ -4212,7 +4212,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "d65924d0-8b30-426b-bd53-7814db3bfa7f",
+		id: "ae052445-5823-459e-8505-892a98a6b45d",
 		name: "Green Goblin",
 		category: "Beer",
 		alcoholic: true,
@@ -4236,9 +4236,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "1278dde3-27c5-4a6c-b379-80efed66a5f2",
+		id: "d7c620ce-4c2f-4990-8674-c47abdda1bac",
 		name: "Golden dream",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions: "Shake with cracked ice. Strain into glass and serve.",
@@ -4264,9 +4264,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "ca81e232-e976-4412-9f3a-5ff88c6686e3",
+		id: "249e4fbd-3bde-43b4-aebb-82e5685dadd4",
 		name: "H.D.",
-		category: "Coffee / Tea",
+		category: "Coffee or Tea",
 		alcoholic: true,
 		servingGlass: "Beer mug",
 		instructions:
@@ -4289,7 +4289,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "c4327859-b007-4055-9395-91c69558bc5a",
+		id: "96e1fc37-d354-4b12-a88a-ac2ad58f4d43",
 		name: "Honey Bee",
 		category: "Cocktail",
 		alcoholic: true,
@@ -4313,9 +4313,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "39e9fef8-9ba9-4116-84b6-14ae184cc8a5",
+		id: "952bcd25-7556-469f-b7ca-d8afff964f66",
 		name: "Herbal flame",
-		category: "Coffee / Tea",
+		category: "Coffee or Tea",
 		alcoholic: true,
 		servingGlass: "Mason jar",
 		instructions:
@@ -4334,9 +4334,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "9dba14a1-ca37-41c3-b10b-1fce567d6737",
+		id: "dc1a5adb-8d41-4e9a-85c5-40fcba8de5cb",
 		name: "Horse's Neck",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Highball glass",
 		instructions:
@@ -4363,9 +4363,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "72163e91-8ea5-4bce-b7be-1d6a2f5df1a3",
+		id: "703369f8-43bb-4d17-9f31-26420b2dc3ca",
 		name: "Happy Skipper",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Highball glass",
 		instructions:
@@ -4392,7 +4392,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "e9b81668-6fcb-4bff-9d1b-fce3ed073415",
+		id: "b0271c65-cc9a-4e1b-9368-adbb4188421f",
 		name: "Hunter's Moon",
 		category: "Cocktail",
 		alcoholic: true,
@@ -4425,9 +4425,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "6b489bdd-4a5b-430b-895a-84ad552fa3d3",
+		id: "5e851122-74cb-42be-8600-b7fc1770df28",
 		name: "Havana Cocktail",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -4450,9 +4450,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "3f1ce86d-bd7c-4ef1-9373-409805eaff0a",
+		id: "47c20c91-c7cc-4077-8c13-157ba336c780",
 		name: "Holloween Punch",
-		category: "Punch / Party Drink",
+		category: "Party Drink",
 		alcoholic: false,
 		servingGlass: "Punch bowl",
 		instructions:
@@ -4479,9 +4479,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "09ef384e-b9f5-4554-a3cb-41eca91948bf",
+		id: "75055047-10ea-4036-b459-db6dd76975fc",
 		name: "Hot Creamy Bush",
-		category: "Coffee / Tea",
+		category: "Coffee or Tea",
 		alcoholic: true,
 		servingGlass: "Irish coffee cup",
 		instructions: "Combine all ingredients in glass",
@@ -4503,9 +4503,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "8abb49dd-0c9e-4e03-8a11-cdd20fdc6f42",
+		id: "410a4a84-ae6b-456a-bd64-083ff6ce6dc4",
 		name: "Homemade Kahlua",
-		category: "Homemade Liqueur",
+		category: "Liqueur",
 		alcoholic: true,
 		servingGlass: "Collins Glass",
 		instructions:
@@ -4540,9 +4540,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "2e1caf85-d606-465f-8154-e38a9f9a8dc5",
+		id: "2427adad-f62a-4063-8baa-cbc01a920b74",
 		name: "Halloween Punch",
-		category: "Punch / Party Drink",
+		category: "Party Drink",
 		alcoholic: true,
 		servingGlass: "Punch bowl",
 		instructions:
@@ -4577,9 +4577,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "5f9fd5bd-d52a-4a7b-b03a-88f06e39274f",
+		id: "4311bd3d-c030-4842-82f5-dfb7ff256f6a",
 		name: "Harvey Wallbanger",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Collins glass",
 		instructions:
@@ -4602,9 +4602,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "5b16d593-0b2c-412f-9466-b726b9972210",
+		id: "3af15b06-9b3e-4d43-af21-2c6d45d9f1b2",
 		name: "Hawaiian Cocktail",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -4627,9 +4627,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "2cec0dec-340d-4a78-a619-709ddae554fc",
+		id: "9be82cda-5be8-4228-8e9f-bc09e4864224",
 		name: "Hemingway Special",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions: "Pour all ingredients into a shaker with ice. Shake.",
@@ -4655,9 +4655,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "ec2f8f35-239f-4948-8eaa-d1f868c05222",
+		id: "9b8e9eee-2c91-4fce-93de-20821a373bd2",
 		name: "Highland Fling Cocktail",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -4684,7 +4684,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "34e5ce6d-129c-42c2-b926-91496e1cc2de",
+		id: "bf3e91c9-9e9d-424c-978f-756bf3e917e2",
 		name: "Hot Chocolate to Die for",
 		category: "Cocoa",
 		alcoholic: false,
@@ -4717,9 +4717,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "888594cb-c07c-4263-89e7-f446506efe30",
+		id: "8c03cd0d-bba0-4554-9d72-24ca5bf6cfe0",
 		name: "Ipamena",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: false,
 		servingGlass: "Wine Glass",
 		instructions:
@@ -4750,9 +4750,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "8677d48f-7ab7-4daa-94f3-9bcd39134326",
+		id: "749195aa-d29b-43f0-b58d-037933cd251b",
 		name: "Iced Coffee",
-		category: "Coffee / Tea",
+		category: "Coffee or Tea",
 		alcoholic: false,
 		servingGlass: "Coffee mug",
 		instructions:
@@ -4779,9 +4779,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "f9ff3ddc-1e8a-4047-9b07-ed5dea0cc02f",
+		id: "8af06174-766a-43b7-b7a3-f09887fa3572",
 		name: "Irish Cream",
-		category: "Homemade Liqueur",
+		category: "Liqueur",
 		alcoholic: true,
 		servingGlass: "Irish coffee cup",
 		instructions: "Mix scotch and milk. Add half-and-half. Add rest.",
@@ -4811,9 +4811,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "dc7b493f-3a19-4053-a3ec-81c65493f381",
+		id: "08d28db8-4588-4dad-8649-3e73749b4327",
 		name: "Ice Pick #1",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Collins Glass",
 		instructions:
@@ -4836,9 +4836,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "f2608d49-387e-4d98-b9fb-eb4a33a64ae2",
+		id: "5e7a4bd1-da33-4614-b3a3-8f3d56d93d28",
 		name: "Irish Spring",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Collins glass",
 		instructions:
@@ -4873,9 +4873,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "624b9efe-b4b0-432e-8cac-7f7ef70a883f",
+		id: "72ae8893-6039-4d14-a045-9661503241e8",
 		name: "Irish Coffee",
-		category: "Coffee / Tea",
+		category: "Coffee or Tea",
 		alcoholic: true,
 		servingGlass: "Irish coffee cup",
 		instructions:
@@ -4902,9 +4902,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "4e22efdd-c757-4d14-8856-70ac093303d7",
+		id: "d6b0e317-948d-4f5c-82f1-a2af681b14e4",
 		name: "Imperial Fizz",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Highball glass",
 		instructions:
@@ -4935,7 +4935,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "e0b40936-50b7-4a13-a57c-e7a15588973e",
+		id: "bff7d80b-59e2-4793-9994-3eca4c6579b4",
 		name: "Irish Russian",
 		category: "Beer",
 		alcoholic: true,
@@ -4964,7 +4964,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "a608cd60-9e88-452b-825b-f0b82b901ea6",
+		id: "6f3d6c7d-edad-463d-9028-565bbc5fc927",
 		name: "Imperial Cocktail",
 		category: "Cocktail",
 		alcoholic: true,
@@ -4988,9 +4988,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "f5c6074c-dda4-457c-ad4d-b6bbe6a14e66",
+		id: "c78a068a-852f-4e0c-bd2e-029f088a6d31",
 		name: "Iced Coffee Fillip",
-		category: "Coffee / Tea",
+		category: "Coffee or Tea",
 		alcoholic: true,
 		servingGlass: "Coffee mug",
 		instructions: "Mix together in a coffee mug and chill before serving.",
@@ -5008,7 +5008,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "b785627f-264e-450c-bcfa-f243a757a138",
+		id: "ea5c790a-151d-45a7-868e-f9f380694cc3",
 		name: "Irish Curdling Cow",
 		category: "Cocktail",
 		alcoholic: true,
@@ -5037,7 +5037,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "5da1764e-0013-4892-81ec-6c4e475984bb",
+		id: "d82397a2-5d11-4e85-8d75-20399ec5b225",
 		name: "Jitterbug",
 		category: "Cocktail",
 		alcoholic: true,
@@ -5078,7 +5078,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "d0bfe56f-555f-45e8-b52f-4a1ee6670393",
+		id: "f36dc71a-ff8a-4482-82b9-a2eb6bc05851",
 		name: "Jam Donut",
 		category: "Shot",
 		alcoholic: true,
@@ -5107,7 +5107,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "7482939d-682f-4523-b8d1-5a5b7c3d8737",
+		id: "b77fba5a-eb89-4aec-8863-f306d5468bfb",
 		name: "Jelly Bean",
 		category: "Shot",
 		alcoholic: true,
@@ -5128,9 +5128,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "365a8d74-5a7b-4bc6-9a75-743cc779fb4b",
+		id: "9eb48ef0-cfc3-4eb9-a024-d972d973e3d7",
 		name: "Jackhammer",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Collins Glass",
 		instructions: "Serve over ice- Warning,Deadly!",
@@ -5148,7 +5148,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "2466edac-ccd4-4dec-a31d-4589aaeabff6",
+		id: "8371222c-69dc-453b-a5de-d805ed0c56e5",
 		name: "Jello shots",
 		category: "Shot",
 		alcoholic: true,
@@ -5173,9 +5173,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "37388dd4-b2b1-406a-be19-cd0d6043acff",
+		id: "80337ba4-1434-4ed5-b9ac-cfd2650f77c0",
 		name: "John Collins",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Collins glass",
 		instructions:
@@ -5210,9 +5210,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "e8d700f1-d979-4fb3-acbe-8fc91582dd28",
+		id: "7d3721bf-dee6-4faa-9412-14773800c6e1",
 		name: "Jamaica Kiss",
-		category: "Milk / Float / Shake",
+		category: "Milkshake",
 		alcoholic: true,
 		servingGlass: "Hurricane glass",
 		instructions:
@@ -5239,9 +5239,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "084a0f39-8a96-41d4-a650-ca1d19562757",
+		id: "83fe9458-8643-4cd4-ba25-d7cd7b3dc759",
 		name: "Japanese Fizz",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Highball glass",
 		instructions:
@@ -5276,9 +5276,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "4fd61fa8-3e11-4ad8-bb08-6813db4b04f9",
+		id: "9bc280fa-c07a-439e-9420-45024d9204d8",
 		name: "Just a Moonmint",
-		category: "Milk / Float / Shake",
+		category: "Milkshake",
 		alcoholic: false,
 		servingGlass: "Highball Glass",
 		instructions:
@@ -5301,9 +5301,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "d97f19ed-e101-41bc-8d38-78a29518c144",
+		id: "9aef87b4-94b6-4761-9394-2b9849f8844f",
 		name: "Jamaican Coffee",
-		category: "Coffee / Tea",
+		category: "Coffee or Tea",
 		alcoholic: true,
 		servingGlass: "Champagne flute",
 		instructions:
@@ -5330,9 +5330,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "c6c076d3-2d01-4626-9f69-29961a2978b1",
+		id: "a02f419b-9038-4414-add7-5e13ec0bccf7",
 		name: "Jewel Of The Nile",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -5355,9 +5355,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "1055f5f1-2d0c-4fd4-a97d-71ba52ba5fd9",
+		id: "d4770575-06eb-4579-8eb9-4093fb6429bf",
 		name: "Jack Rose Cocktail",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -5380,9 +5380,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "8704d409-1185-489f-8c5b-8febeb671fcc",
+		id: "6d89bded-bd30-4db0-8936-3b1be1f5a2a4",
 		name: "Jack's Vanilla Coke",
-		category: "Other / Unknown",
+		category: "Other",
 		alcoholic: true,
 		servingGlass: "Old-fashioned glass",
 		instructions:
@@ -5409,9 +5409,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "f4b1b9b9-01fd-493c-8759-b141505ba219",
+		id: "a849977f-ef57-40e3-8141-594b18446518",
 		name: "Kir",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Wine Glass",
 		instructions:
@@ -5430,9 +5430,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "b131dd37-41ea-4584-abbc-7675462c7834",
+		id: "361b7635-4545-44f2-959c-b905c8e5dbd1",
 		name: "Karsk",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Highball glass",
 		instructions:
@@ -5451,9 +5451,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "419101d7-905d-4e6b-8d9a-724ee5f93cb3",
+		id: "b2a35b4a-4b30-4293-89f0-b072128e225d",
 		name: "Kamikaze",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -5476,9 +5476,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "decada6b-f5f1-4c72-9527-0f5c43b452ef",
+		id: "052a4fd0-7712-422d-89c4-1e896b9851f0",
 		name: "Kir Royale",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Champagne Flute",
 		instructions: "Pour Creme de cassis in glass, gently pour champagne on top",
@@ -5496,9 +5496,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "8897acde-ba20-4c83-bda4-d98c323bb198",
+		id: "7ca2ad6b-db44-4c4d-b294-94f9b50235f7",
 		name: "Kurant Tea",
-		category: "Coffee / Tea",
+		category: "Coffee or Tea",
 		alcoholic: true,
 		servingGlass: "Champagne flute",
 		instructions:
@@ -5521,9 +5521,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "8d5e684f-aa07-48a4-9144-a6ffc63a9020",
+		id: "248668c2-9514-4187-b8f9-a027c802ef11",
 		name: "Kiwi Lemon",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Highball glass",
 		instructions: "Mix in highball glass. Stirr. Garnish with slice of kiwi.",
@@ -5545,9 +5545,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "8fbe843e-6455-425e-8204-868554f80e60",
+		id: "1ff3a94c-1234-4f4b-9f89-36ae96700053",
 		name: "Kioki Coffee",
-		category: "Coffee / Tea",
+		category: "Coffee or Tea",
 		alcoholic: true,
 		servingGlass: "Coffee mug",
 		instructions: "Stir. Add whipped cream to the top.",
@@ -5569,7 +5569,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "fed760e3-9ac7-4cd2-8d15-cee90ec889e8",
+		id: "bba360a6-11c8-4305-9fad-3129b6d7bf19",
 		name: "Kool-Aid Shot",
 		category: "Shot",
 		alcoholic: true,
@@ -5602,9 +5602,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "4ff75513-4a31-46d8-8592-ac3b6a4b8dcd",
+		id: "313edbe0-af74-4ed6-bf8e-0a037021d9c9",
 		name: "Kiss me Quick",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Highball glass",
 		instructions: "mix in the glass",
@@ -5634,7 +5634,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "a52ec855-a0e4-4bb5-a48f-a3955d365e7f",
+		id: "c4dd8a83-cc7a-4929-9c2c-124ca2e4aff9",
 		name: "Kool First Aid",
 		category: "Shot",
 		alcoholic: true,
@@ -5655,9 +5655,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "cad9c132-7c68-49fa-b150-5d07ecfb1f1b",
+		id: "37b97fbc-8049-4889-b44f-9235ad2387ac",
 		name: "Kentucky B And B",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Brandy snifter",
 		instructions: "Pour the bourbon and Benedictine into a brandy snifter.",
@@ -5675,9 +5675,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "c0297bcf-dc6c-4a27-926a-5ee4770d9237",
+		id: "368d75d8-f04c-41df-bda5-ad7ef34c8703",
 		name: "Kentucky Colonel",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -5700,7 +5700,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "8b21bf98-bb30-4521-8a2e-9e64115baf59",
+		id: "5c75e5c0-1e07-4522-a60a-7109504b2d25",
 		name: "Kool-Aid Slammer",
 		category: "Shot",
 		alcoholic: true,
@@ -5721,9 +5721,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "e533290f-f0ab-48c4-a483-1e6f74935348",
+		id: "5551c0e7-316c-486f-a09c-d421a397200c",
 		name: "Kiwi Papaya Smoothie",
-		category: "Other / Unknown",
+		category: "Other",
 		alcoholic: false,
 		servingGlass: "Highball Glass",
 		instructions: "Throw everything into a blender and liquify.",
@@ -5741,9 +5741,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "69334c1c-c005-4b69-8b23-4502933e1f18",
+		id: "c992f3d7-06ab-4892-af09-deaca97f869b",
 		name: "Kill the cold Smoothie",
-		category: "Other / Unknown",
+		category: "Other",
 		alcoholic: false,
 		servingGlass: "Highball glass",
 		instructions:
@@ -5766,9 +5766,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "e13edaae-de3d-41e6-abbc-73236e85441f",
+		id: "afc30f0b-b232-44f8-9d56-4b17699e9eaf",
 		name: "Limeade",
-		category: "Other / Unknown",
+		category: "Other",
 		alcoholic: false,
 		servingGlass: "Highball glass",
 		instructions:
@@ -5795,7 +5795,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "54dbce32-9549-4a1c-96dd-97140538f3f5",
+		id: "52042413-d36c-4471-8087-22cddae63c37",
 		name: "Lunch Box",
 		category: "Beer",
 		alcoholic: true,
@@ -5820,7 +5820,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "de207469-226a-41be-a666-11c4f325920d",
+		id: "0b2a5666-36ed-4ec7-83f4-3c940082c8ff",
 		name: "Lemon Shot",
 		category: "Shot",
 		alcoholic: true,
@@ -5853,9 +5853,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "0123842d-0907-49d8-a774-b77d0ca53a09",
+		id: "99e867dc-e7a1-4d5f-9cc1-a24bb16fc4bb",
 		name: "Long vodka",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Highball glass",
 		instructions:
@@ -5886,7 +5886,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "8336ac9b-5f19-4bae-85cd-50af5b7ee6f0",
+		id: "aa6d6377-6ebc-4c8b-bd29-7cac2d607083",
 		name: "Lemon Drop",
 		category: "Cocktail",
 		alcoholic: true,
@@ -5911,9 +5911,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "3a616cc5-3c3d-4c9a-905f-dbfebccd75da",
+		id: "8a9c0126-ff3f-4ddd-a8e1-d792f641c8c8",
 		name: "Loch Lomond",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -5940,9 +5940,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "c29035b3-0bf9-4a0a-b7fe-9ddec5e47146",
+		id: "7313d077-17a6-42ad-b1c6-2f63ddcbcaa8",
 		name: "London Town",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -5965,9 +5965,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "d68b3481-4322-487d-b45b-d9f6d06acaa4",
+		id: "cce10835-6816-49c1-a754-e50c7d03fac9",
 		name: "Lassi Khara",
-		category: "Other / Unknown",
+		category: "Other",
 		alcoholic: false,
 		servingGlass: "Highball Glass",
 		instructions:
@@ -5994,9 +5994,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "359a710b-643c-4d45-b7bf-7c9680b367f4",
+		id: "ec743e79-2897-4073-a4a2-0bca82f74df9",
 		name: "Lassi Raita",
-		category: "Other / Unknown",
+		category: "Other",
 		alcoholic: false,
 		servingGlass: "Highball Glass",
 		instructions:
@@ -6027,9 +6027,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "cef29c7b-e4d2-4271-9292-fd49f6f3d23d",
+		id: "59ae8b3a-3dda-4bbf-942e-9b2227a11df0",
 		name: "Lemouroudji",
-		category: "Other / Unknown",
+		category: "Other",
 		alcoholic: false,
 		servingGlass: "Highball Glass",
 		instructions:
@@ -6060,9 +6060,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "17f21542-3991-400f-999f-ac557215cb92",
+		id: "10740e9c-b0fc-44b0-b906-760af1a25b80",
 		name: "Lord And Lady",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Old-fashioned glass",
 		instructions:
@@ -6081,9 +6081,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "10f2162a-81a0-4648-ad22-98a5e84b9877",
+		id: "9123950b-b998-4e6f-bc10-e32df5241613",
 		name: "Lassi - Sweet",
-		category: "Other / Unknown",
+		category: "Other",
 		alcoholic: false,
 		servingGlass: "Highball glass",
 		instructions:
@@ -6114,9 +6114,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "8cd49d9f-0436-49f5-88d4-9e20674bb8c4",
+		id: "78ca0dd3-4fc1-45cf-b192-aaf3849a6204",
 		name: "Lassi - Mango",
-		category: "Other / Unknown",
+		category: "Other",
 		alcoholic: false,
 		servingGlass: "Highball glass",
 		instructions:
@@ -6143,7 +6143,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "07395a9b-3b48-44b5-b035-b4e4900dc526",
+		id: "982d2b80-4ee0-44dd-ae1f-7513a356a71e",
 		name: "Limona Corona",
 		category: "Beer",
 		alcoholic: true,
@@ -6164,9 +6164,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "7f3f55c1-016d-422c-b2e5-30b9bb4fb3b8",
+		id: "16010e91-be05-4bb1-be57-b723a8615a6b",
 		name: "Lady Love Fizz",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -6201,9 +6201,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "86e0cf79-3a7e-4397-a3a2-99b28a92b9e0",
+		id: "acfb2364-a908-44ef-aeeb-4be0abb51147",
 		name: "Long Island Tea",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Highball glass",
 		instructions:
@@ -6238,9 +6238,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "4a0a3f6a-40fe-434c-981d-6db9d73cab5a",
+		id: "fd9f2dae-7925-4ebb-a90e-c4c09040d81d",
 		name: "Lone Tree Cooler",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Collins glass",
 		instructions:
@@ -6275,9 +6275,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "c61d4c6a-da05-408b-a6f8-35db2bf9f845",
+		id: "8483297a-b1b7-4980-b4d9-2c53c430e56c",
 		name: "Lone Tree Cocktail",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -6296,9 +6296,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "227b8cce-a688-4c47-bea9-1c23c72134aa",
+		id: "e11ace43-d2fa-4bb5-a4b5-12e1e2ec5d8b",
 		name: "Long Island Iced Tea",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Highball glass",
 		instructions:
@@ -6333,9 +6333,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "8c795cec-c6af-4a96-90d4-55f73f89a391",
+		id: "1ea3edda-60b0-4cba-b068-c0009df46aea",
 		name: "Lassi - A South Indian Drink",
-		category: "Other / Unknown",
+		category: "Other",
 		alcoholic: false,
 		servingGlass: "Highball Glass",
 		instructions:
@@ -6366,9 +6366,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "a180bd98-4497-4092-a8f1-fe05e6bc1326",
+		id: "1911577d-f8ae-42c3-968b-b4cd42f78160",
 		name: "Melya",
-		category: "Coffee / Tea",
+		category: "Coffee or Tea",
 		alcoholic: false,
 		servingGlass: "Coffee mug",
 		instructions:
@@ -6391,7 +6391,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "1c4c458f-d9af-41fd-b831-5c19590f8c43",
+		id: "eb9a3479-3a8a-4157-8a52-7d8b76a852fd",
 		name: "Mojito",
 		category: "Cocktail",
 		alcoholic: true,
@@ -6424,9 +6424,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "a9c13b11-63aa-4e0c-a3fd-6b53060adc21",
+		id: "da78a33b-3fad-44ed-bce4-7c24530a7b2e",
 		name: "Mimosa",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Champagne flute",
 		instructions:
@@ -6445,9 +6445,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "921d4bde-4b62-4aeb-aa91-211c4d309fb4",
+		id: "8510bc03-3fe9-4733-8c83-330ef155c86e",
 		name: "Mai Tai",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Collins glass",
 		instructions:
@@ -6478,7 +6478,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "f27a94f8-8a7c-4ab3-8096-3a4106e58c89",
+		id: "0685876d-e641-4dae-867f-7e90b04fe101",
 		name: "Martini",
 		category: "Cocktail",
 		alcoholic: true,
@@ -6503,9 +6503,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "998229b1-aac3-4ced-9cec-c9f994b19e56",
+		id: "58116d02-b6b0-4dbb-9c55-6feaf866a27f",
 		name: "Margarita",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -6532,7 +6532,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "fb60fe2c-e7b6-473d-ac90-2f7bc03c3bfa",
+		id: "414ad2df-d200-4db8-af20-b087544c9679",
 		name: "Manhattan",
 		category: "Cocktail",
 		alcoholic: true,
@@ -6569,7 +6569,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "d00cd2d5-c3da-45f4-a0a6-ca1df22bfba3",
+		id: "2564ab1d-9db4-4c8b-9d54-3ae0b096b741",
 		name: "Mojito #3",
 		category: "Cocktail",
 		alcoholic: true,
@@ -6602,7 +6602,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "47371b9e-43c4-4146-8a09-d1d159b62d0c",
+		id: "d89544ac-7240-42d9-9be6-545ec7363d39",
 		name: "Miami Vice",
 		category: "Cocktail",
 		alcoholic: true,
@@ -6627,9 +6627,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "c4eacc94-7782-4e92-8f5f-9301ca5ecdc2",
+		id: "f1cc7673-b1fc-4f1f-aa9f-8a30a2e5c9dc",
 		name: "Mudslinger",
-		category: "Punch / Party Drink",
+		category: "Party Drink",
 		alcoholic: true,
 		servingGlass: "Punch bowl",
 		instructions: "Add all contents to a large jug or punch bowl. Stir well!",
@@ -6651,7 +6651,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "5db81b7a-05c8-4633-8b9a-8d3b33b608b8",
+		id: "60427271-061c-4bf4-8e0f-25fc53e37e03",
 		name: "Moranguito",
 		category: "Shot",
 		alcoholic: true,
@@ -6676,9 +6676,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "18fdb8c1-d5bd-4e5c-876c-ae13294c2ce4",
+		id: "2fe4893c-c0d6-4633-acac-9b476929b3a7",
 		name: "Mint Julep",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Collins glass",
 		instructions:
@@ -6705,7 +6705,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "46a2105d-b43a-4439-ac8f-7dfa309ef74b",
+		id: "7511802f-d5c7-475f-8601-540d13ef67f0",
 		name: "Martinez 2",
 		category: "Cocktail",
 		alcoholic: true,
@@ -6734,9 +6734,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "337b2052-1a23-44f5-94b2-a96d69313f56",
+		id: "4a3c6c89-54bf-4e84-81b1-84acd935eb22",
 		name: "Masala Chai",
-		category: "Coffee / Tea",
+		category: "Coffee or Tea",
 		alcoholic: false,
 		servingGlass: "Coffee Mug",
 		instructions:
@@ -6783,9 +6783,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "b3ef06d2-6f27-43a1-87b3-93bbaf5ed5f4",
+		id: "d0742064-82d5-4f14-9bdd-48c3beb15f1a",
 		name: "Mulled Wine",
-		category: "Punch / Party Drink",
+		category: "Party Drink",
 		alcoholic: true,
 		servingGlass: "Collins Glass",
 		instructions:
@@ -6824,9 +6824,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "f092b26c-81ef-445f-9780-e7f73058abe7",
+		id: "aa092660-7391-4960-8aab-4032fdf97a9f",
 		name: "Moscow Mule",
-		category: "Punch / Party Drink",
+		category: "Party Drink",
 		alcoholic: true,
 		servingGlass: "Copper Mug",
 		instructions:
@@ -6849,9 +6849,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "5515b093-dbf3-40a0-bc12-61956c856194",
+		id: "d873da4c-4fab-4ee0-af1e-43060b8e0574",
 		name: "Mocha-Berry",
-		category: "Coffee / Tea",
+		category: "Coffee or Tea",
 		alcoholic: true,
 		servingGlass: "Irish coffee cup",
 		instructions:
@@ -6878,7 +6878,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "a03f7d56-0db4-45d5-bec4-68fc5b191589",
+		id: "fae047cc-65cc-441d-822b-7b0bd2bcea4d",
 		name: "Munich Mule",
 		category: "Cocktail",
 		alcoholic: true,
@@ -6911,9 +6911,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "9fc8625c-d6fb-4696-b628-3519bb6b328a",
+		id: "b017e270-fa5e-455d-8e52-2940dda75a2e",
 		name: "Monkey Gland",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -6940,9 +6940,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "2c576a7f-0fd6-4971-aeef-3a75449cb882",
+		id: "da9ced88-2e52-4255-9462-762cec9fa95a",
 		name: "Monkey Wrench",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Old-fashioned glass",
 		instructions:
@@ -6965,9 +6965,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "33fa0052-924a-4fec-bb43-e53926326328",
+		id: "a4ecc05d-a091-4f23-b9ac-28e25d539732",
 		name: "Midnight Manx",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Old-fashioned glass",
 		instructions:
@@ -6998,7 +6998,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "900dca2a-8643-4eb8-96c9-01bb2d22481a",
+		id: "3d34e42d-91ee-4d84-956e-66c120cafc15",
 		name: "Mother's Milk",
 		category: "Shot",
 		alcoholic: true,
@@ -7022,7 +7022,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "d795eb25-16fd-4319-a6fa-cbce3d38a69e",
+		id: "2cb01f4a-f0c4-44fa-92f0-30b85fdf284a",
 		name: "Midnight Mint",
 		category: "Cocktail",
 		alcoholic: true,
@@ -7047,7 +7047,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "e96746c4-7253-498b-94de-e677414616ca",
+		id: "791532bb-93a9-4e88-acac-a072710a9da0",
 		name: "Mary Pickford",
 		category: "Cocktail",
 		alcoholic: true,
@@ -7079,7 +7079,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "c9ff952e-cf8f-45dc-a919-f8d5dac86cf5",
+		id: "899523c9-b1c4-4900-8f26-6a7b4e57231b",
 		name: "Malibu Twister",
 		category: "Cocktail",
 		alcoholic: true,
@@ -7103,9 +7103,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "a53b6201-1d38-4aff-a601-b97ff7c22d0d",
+		id: "de5b1908-b06d-4476-93ac-11099d43709b",
 		name: "Negroni",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Old-fashioned glass",
 		instructions: "Stir into glass over ice, garnish and serve.",
@@ -7127,9 +7127,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "0033ba45-a7c4-4fd7-8c44-a8703b0d32cb",
+		id: "c2a39e2a-ca10-4870-8b18-a7ce1192cf66",
 		name: "New York Sour",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Whiskey sour glass",
 		instructions:
@@ -7164,9 +7164,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "610b6df2-6b01-437f-ba74-36bf6906c40c",
+		id: "d1e7bec9-b717-4638-a39f-abe9c3c8f0a5",
 		name: "Nutty Irishman",
-		category: "Milk / Float / Shake",
+		category: "Milkshake",
 		alcoholic: true,
 		servingGlass: "Highball Glass",
 		instructions: "Serve over ice",
@@ -7188,9 +7188,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "d9083ad7-f6ef-4058-97c8-33957ad6dba1",
+		id: "13c44184-cdf4-48e4-be2c-76587485f6ff",
 		name: "National Aquarium",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Collins Glass",
 		instructions:
@@ -7225,7 +7225,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "1ed598d9-f9ee-4659-888a-586932b487b6",
+		id: "535ae417-69e5-466d-ae82-04add4414579",
 		name: "New York Lemonade",
 		category: "Cocktail",
 		alcoholic: true,
@@ -7254,7 +7254,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "0064bc7f-cae1-4901-8710-364e94013e79",
+		id: "41401bd0-1163-4cad-8637-8e0a7c9305f0",
 		name: "Nuked Hot Chocolate",
 		category: "Cocoa",
 		alcoholic: false,
@@ -7283,9 +7283,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "0fb4f457-3f8f-43c7-ab66-ddd6d22eb665",
+		id: "40a972fe-85bb-4e1e-9704-a8f107a54bd7",
 		name: "Orgasm",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -7316,7 +7316,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "83d3ec51-50dd-4352-b7ad-dbf093d30a12",
+		id: "f15bb8b8-aa9d-4dd1-aeba-aee25d9f54b2",
 		name: "Old Pal",
 		category: "Cocktail",
 		alcoholic: true,
@@ -7341,7 +7341,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "7ffdaf8e-df59-4864-b974-0f8cdf52a80c",
+		id: "4af34493-ed57-4357-9342-eb3f105dc1b0",
 		name: "Orangeade",
 		category: "Cocktail",
 		alcoholic: false,
@@ -7370,9 +7370,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "f211d756-9c67-4ce7-8c56-e0fe6e25b0c8",
+		id: "cc9d741a-3317-4a06-8501-3a966c7b5a5b",
 		name: "Orange Whip",
-		category: "Other / Unknown",
+		category: "Other",
 		alcoholic: true,
 		servingGlass: "Collins Glass",
 		instructions: "Pour ingredients over ice and stir.",
@@ -7402,9 +7402,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "0a90dc5e-8ce5-4c2f-9535-96cafb62686b",
+		id: "4d07dfa6-00f2-4b78-a288-486417415b74",
 		name: "Orange Oasis",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Highball glass",
 		instructions:
@@ -7431,7 +7431,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "a570ddd9-0c5f-45c5-b253-5ac8b74e2c3b",
+		id: "e7c008e9-45e7-4fa1-bfc5-c98aeabe1c5c",
 		name: "Orange Crush",
 		category: "Shot",
 		alcoholic: true,
@@ -7455,7 +7455,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "bde4461b-e995-4cb2-9c02-d43f0b377d25",
+		id: "9b1343da-ca3a-45e0-b1c9-8cc5d3a10dc2",
 		name: "Old Fashioned",
 		category: "Cocktail",
 		alcoholic: true,
@@ -7484,9 +7484,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "76c85bce-dd07-4b8d-866f-aa532bcf9477",
+		id: "76fa72c2-0c85-4bae-98c4-aa73c73c9364",
 		name: "Oreo Mudslide",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Collins Glass",
 		instructions:
@@ -7517,9 +7517,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "9475dead-6d65-40cf-8435-d2363f4b1a64",
+		id: "4f5aee12-c244-4464-a785-2d5da863926d",
 		name: "Orange Push-up",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Hurricane glass",
 		instructions:
@@ -7546,7 +7546,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "d962e4f1-3d11-4d3f-a393-df9be10a3da3",
+		id: "f688cb90-237a-4c91-ab15-8911e019fba4",
 		name: "Oatmeal Cookie",
 		category: "Cocktail",
 		alcoholic: true,
@@ -7579,7 +7579,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "4a6d4f00-c783-4e50-bed0-ea9fc72f9e7b",
+		id: "1e96bfae-5a1d-4351-bba6-961099072d87",
 		name: "Orange Scented Hot Chocolate",
 		category: "Cocoa",
 		alcoholic: false,
@@ -7612,9 +7612,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "c19217a3-736d-4641-a656-40f10c005885",
+		id: "df2234b4-facb-4531-ab34-4dce8a0e5f03",
 		name: "Owen's Grandmother's Revenge",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Highball glass",
 		instructions: "Add ingredients and mix in blender.",
@@ -7640,7 +7640,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "d03aebb0-32a1-4f31-96ad-6ee98585a957",
+		id: "9fbb48a6-3f8b-4689-be46-2a27ec46d2c2",
 		name: "Paloma",
 		category: "Cocktail",
 		alcoholic: true,
@@ -7660,9 +7660,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "3da088da-d2b4-45dc-9fa2-091e22a52752",
+		id: "f11ffd6a-249f-473a-9b29-08276a440b7a",
 		name: "Pink Gin",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "White wine glass",
 		instructions:
@@ -7681,9 +7681,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "b6cc1c27-3610-40f9-bea8-47d4cb39cb36",
+		id: "1be31c80-9c98-4ce9-9a45-d989fc89458a",
 		name: "Paradise",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -7706,9 +7706,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "bf118984-9622-4ba3-a5e4-a4426c1090ee",
+		id: "8b6e9d62-7e6a-43e1-a83e-51c29383e3d8",
 		name: "Pink Lady",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -7735,7 +7735,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "e427b29f-0d3f-42c6-bd87-133a6d1ea979",
+		id: "d459d672-55a9-4986-beff-268d74986a9a",
 		name: "Pegu Club",
 		category: "Cocktail",
 		alcoholic: true,
@@ -7767,7 +7767,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "3f7e4fc0-8ad1-47fb-b7a5-f78779e2dbb9",
+		id: "ba65fd13-78c6-4f39-93eb-fdef0d709f2f",
 		name: "Pisco Sour",
 		category: "Cocktail",
 		alcoholic: true,
@@ -7796,9 +7796,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "e843d0b1-0070-4012-87c8-4b30e6624adb",
+		id: "2d8da4cc-6a69-4ff8-ad33-af08f7e455af",
 		name: "Porto flip",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -7821,7 +7821,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "097f1edf-61df-469a-87a2-051ad57abcae",
+		id: "ae74ba7b-82e5-4b19-9ef5-0ac240794dee",
 		name: "Penicillin",
 		category: "Cocktail",
 		alcoholic: true,
@@ -7854,9 +7854,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "1e379c86-f175-4730-a4bb-a0211547e2e2",
+		id: "f618d5f6-dee6-4e5d-98f3-4e8ace4c813e",
 		name: "Pina Colada",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Collins glass",
 		instructions:
@@ -7879,9 +7879,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "a0ad8aa6-1a65-40b9-ab91-b9597e26158c",
+		id: "f931bbe8-0be0-4229-b82b-24ec801f37c2",
 		name: "Pink Penocha",
-		category: "Punch / Party Drink",
+		category: "Party Drink",
 		alcoholic: true,
 		servingGlass: "Punch bowl",
 		instructions: "mix all ingredients into bowl keep iced stir frequently",
@@ -7911,9 +7911,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "7210033d-7279-42dd-8a61-51ec7eccff6a",
+		id: "2112c673-b451-48cf-95b7-2c61fa306137",
 		name: "Popped cherry",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Highball glass",
 		instructions:
@@ -7940,9 +7940,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "d6b8133d-605b-4ff3-9d3a-870552b1f4b8",
+		id: "a6c326db-fca8-4928-b2c7-d3a204cbf6f8",
 		name: "Poppy Cocktail",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -7961,9 +7961,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "b565fe04-cc08-4515-8e46-3ad798098e85",
+		id: "aafce179-8672-4d5c-b582-927831d152db",
 		name: "Port Wine Flip",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Whiskey sour glass",
 		instructions:
@@ -7994,9 +7994,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "309908f9-8f39-4ad5-bfe7-c8d9da3972a2",
+		id: "92cecdc0-b7a2-41bd-beba-f5dac62c635f",
 		name: "Planter's Punch",
-		category: "Punch / Party Drink",
+		category: "Party Drink",
 		alcoholic: true,
 		servingGlass: "Collins glass",
 		instructions:
@@ -8023,7 +8023,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "0277f4d1-778e-4349-b6ce-352ee8624a87",
+		id: "1b59a9f3-f946-4106-a757-7966ee771083",
 		name: "Pineapple Paloma",
 		category: "Cocktail",
 		alcoholic: true,
@@ -8060,9 +8060,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "cce679fb-4430-4b54-b98f-8e53bbde8b9d",
+		id: "3be3d31b-8408-4472-a2d2-5342233768d7",
 		name: "Port And Starboard",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Pousse cafe glass",
 		instructions:
@@ -8081,9 +8081,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "d7caa4fb-d279-4b51-847f-0fe6a97044d9",
+		id: "32a30922-4471-4429-800e-d300c51f4d52",
 		name: "Port Wine Cocktail",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -8102,9 +8102,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "2cf9f441-b218-45dc-a08f-142f8141ade8",
+		id: "f64645ab-543a-4c32-9003-31a9a8df7d1c",
 		name: "Pysch Vitamin Light",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: false,
 		servingGlass: "Collins Glass",
 		instructions: "Shake with ice.",
@@ -8130,9 +8130,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "a3eb6e04-e920-46d6-ab63-c6af18747f9b",
+		id: "bfc61599-739d-4d73-bade-81aeb6124792",
 		name: "Pink Panty Pulldowns",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Collins Glass",
 		instructions: "Shake well",
@@ -8154,7 +8154,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "1bec0e9c-87f8-40f2-a337-b8f8986ed84a",
+		id: "43a502cc-0520-4c96-90d3-83f8e8d8ce4f",
 		name: "Passion Fruit Martini",
 		category: "Cocktail",
 		alcoholic: true,
@@ -8179,9 +8179,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "94012c7d-f298-4bf0-9115-de91d19db457",
+		id: "1c21aa40-7900-471f-a062-16b847be86ae",
 		name: "Pineapple Gingerale Smoothie",
-		category: "Other / Unknown",
+		category: "Other",
 		alcoholic: false,
 		servingGlass: "Highball Glass",
 		instructions: "Throw everything into a blender and liquify.",
@@ -8199,9 +8199,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "6a0c6057-69f9-413a-987f-23599cd81025",
+		id: "e17a8bbc-cc51-453b-8f94-af14e5610e62",
 		name: "Quentin",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -8228,9 +8228,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "a75d4c8d-6425-43f4-a922-f566928b8d3c",
+		id: "5dccf574-7156-4f7a-9149-b5380b9ff878",
 		name: "Queen Bee",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -8253,7 +8253,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "c9a93633-e65a-40fe-a59c-5563116ab24e",
+		id: "36e4547c-e192-4616-9e26-4ae5face6df6",
 		name: "Quick F**K",
 		category: "Shot",
 		alcoholic: true,
@@ -8278,9 +8278,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "019694a9-ef5b-4198-94e8-3a0e2d043916",
+		id: "12e9702c-fa93-4336-ae8a-79e472c9ebc1",
 		name: "Quick-sand",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Highball glass",
 		instructions:
@@ -8299,9 +8299,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "22d82d82-629a-4a7d-b2cb-f4e36f1ae4e9",
+		id: "5ba4d352-ed88-4c8d-b5bf-53fde831fc35",
 		name: "Queen Charlotte",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Collins glass",
 		instructions:
@@ -8324,9 +8324,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "d05b19a2-5c91-4ae4-8d6a-fe43a721c541",
+		id: "559bae5f-4a2d-4b0c-969c-94722848fd17",
 		name: "Queen Elizabeth",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -8349,9 +8349,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "1b90f7bf-873d-480f-966e-f1e564f39023",
+		id: "3b2f0ddd-72c6-4c4b-8e61-fd889e854cff",
 		name: "Quaker's Cocktail",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -8378,9 +8378,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "72749492-6a99-482f-9e69-8aca4a1519cd",
+		id: "31609b77-e7b3-40ff-9af2-5db72a7e40d9",
 		name: "Quarter Deck Cocktail",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -8403,9 +8403,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "dec88219-01c2-40b0-bca4-57b1fe4c4516",
+		id: "bd9a37a8-e676-466e-a2c4-2ea10710a268",
 		name: "Rose",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -8440,9 +8440,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "d1f5613f-afb9-4720-989f-3baaa21bf8f9",
+		id: "31e635af-a60a-4611-b976-ab143b3b9cce",
 		name: "Radler",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Highball glass",
 		instructions: "Pour beer into large mug, slowly add the 7-up (or Sprite).",
@@ -8460,9 +8460,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "3bf73456-ff7d-4e2c-9c7d-bb0e98c31564",
+		id: "9e04582a-9904-403f-bad9-a6d3b9c27948",
 		name: "Rum Sour",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Whiskey sour glass",
 		instructions:
@@ -8493,9 +8493,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "bb9b0f89-6fea-42a4-8629-1fe3c24e3114",
+		id: "bf7d8b00-4880-4bfb-b79e-75524b90b7c1",
 		name: "Rum Toddy",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Old-fashioned glass",
 		instructions:
@@ -8522,9 +8522,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "2878aee4-a4fc-4c7a-9c03-e1ca1bade969",
+		id: "715b05ec-c248-4914-92f3-42cd78495d86",
 		name: "Rum Punch",
-		category: "Punch / Party Drink",
+		category: "Party Drink",
 		alcoholic: true,
 		servingGlass: "Punch bowl",
 		instructions: "Mix all ingredients in a punch bowl and serve.",
@@ -8554,9 +8554,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "1642ac10-1339-4605-b123-e75a8ee3b2cb",
+		id: "0247f9f9-622f-4ad9-962e-705a2418162f",
 		name: "Royal Fizz",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Collins glass",
 		instructions:
@@ -8583,9 +8583,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "7f951315-ccde-43d7-9319-503d5f235ad6",
+		id: "1baa3a57-8ac0-4270-a824-68cec4ff4bb8",
 		name: "Rum Cooler",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Collins glass",
 		instructions:
@@ -8608,9 +8608,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "224b4cea-ae48-4c67-bdab-f12101fda318",
+		id: "4d783699-c31e-4b26-ad1f-c7c75dbef06e",
 		name: "Rusty Nail",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Old-fashioned glass",
 		instructions:
@@ -8633,9 +8633,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "477330c4-8be9-47b0-9631-869f69f1d8d8",
+		id: "07f44835-57d7-4566-8500-0a1b1fe6ce8f",
 		name: "Rum Runner",
-		category: "Punch / Party Drink",
+		category: "Party Drink",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions: "Mix all ingredients in glass & add ice.",
@@ -8665,9 +8665,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "2c2047b5-3389-4ab6-a306-5e2b2b231623",
+		id: "a8b20475-481d-45cb-8d1b-820c81f6c3a2",
 		name: "Rum Cobbler",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Old-fashioned glass",
 		instructions:
@@ -8702,7 +8702,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "8539e674-08a9-4c3e-80e7-9964c655b5c8",
+		id: "fcc1494e-b9b8-4815-80e3-f7dfa50eff65",
 		name: "Red Snapper",
 		category: "Shot",
 		alcoholic: true,
@@ -8726,7 +8726,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "2161bcac-df59-4567-b9cc-5dc6dc3f7bd8",
+		id: "76fadfad-068d-443d-814d-ad2061810d4e",
 		name: "Royal Flush",
 		category: "Shot",
 		alcoholic: true,
@@ -8755,7 +8755,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "ba442d5d-0f32-41c8-8585-e3af239e91c8",
+		id: "b0979384-690a-4de2-8cd1-faede466ac92",
 		name: "Royal Bitch",
 		category: "Shot",
 		alcoholic: true,
@@ -8776,7 +8776,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "4a356e84-965a-4aa2-ba48-a6f86f1d5bba",
+		id: "db60322b-ea16-4f10-9595-40b3c9be6f72",
 		name: "Ruby Tuesday",
 		category: "Cocktail",
 		alcoholic: true,
@@ -8801,7 +8801,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "a1067cb5-1246-4c4e-9750-c54027e180c4",
+		id: "d75407ed-373f-4901-af48-c2689a4afe6c",
 		name: "Rail Splitter",
 		category: "Cocktail",
 		alcoholic: false,
@@ -8826,7 +8826,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "92556aa3-5553-4c1e-b4a5-2bb3ee9b9320",
+		id: "af42fec9-c0c7-4e82-b5d4-822fb03e1408",
 		name: "Rosemary Blue",
 		category: "Cocktail",
 		alcoholic: true,
@@ -8855,9 +8855,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "365cbd18-baf6-4eac-8e51-ffc20b50ebf7",
+		id: "d930c9fe-c8a1-4504-80c0-bd5d943cc5f0",
 		name: "Royal Gin Fizz",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Highball glass",
 		instructions:
@@ -8888,9 +8888,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "a5a19ab7-7fa7-4e7c-b588-8317ba2f3d38",
+		id: "c765b6ad-947c-47af-9b2c-eae512b82bdf",
 		name: "Rum Milk Punch",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Collins glass",
 		instructions:
@@ -8917,9 +8917,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "9cbbc1b3-4d0e-45b9-83c2-e15652251d3f",
+		id: "fd9c5920-ed3c-4d48-9f99-c65b8a6f144e",
 		name: "Rum Screwdriver",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Highball glass",
 		instructions:
@@ -8938,9 +8938,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "6046945e-f19f-4874-81a7-f225d9b61c39",
+		id: "286f6e06-8f17-4e94-bcec-cc19ba559ca2",
 		name: "Raspberry Cooler",
-		category: "Other / Unknown",
+		category: "Other",
 		alcoholic: true,
 		servingGlass: "Highball glass",
 		instructions:
@@ -8963,9 +8963,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "3db1a3cf-4433-4dbc-a39d-bf95fe6d0ef9",
+		id: "5aee6c91-a576-4ef9-aa94-18f14612b5e8",
 		name: "Rum Old-fashioned",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Old-fashioned glass",
 		instructions:
@@ -9000,9 +9000,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "14cf38c7-f440-4893-9c1e-00a0aa62650a",
+		id: "ecc978fd-87d9-48ec-b07e-62d5042aa986",
 		name: "Russian Spring Punch",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Highball glass",
 		instructions:
@@ -9029,9 +9029,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "be71b1b4-da90-4a44-848a-2cf46d6b57df",
+		id: "4a9af887-6593-4c4a-b324-1d94a37e2b73",
 		name: "Radioactive Long Island Iced Tea",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Collins Glass",
 		instructions:
@@ -9074,9 +9074,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "209154e2-f68d-4b9d-818c-88bd6c4dde8b",
+		id: "27f06176-d562-4dbf-b484-aabca932e278",
 		name: "Smut",
-		category: "Punch / Party Drink",
+		category: "Party Drink",
 		alcoholic: true,
 		servingGlass: "Beer mug",
 		instructions: "Throw it all together and serve real cold.",
@@ -9102,9 +9102,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "a753026d-8053-4405-825f-0c57169cf07c",
+		id: "7055de1f-651d-439c-ab60-0de928e7cff9",
 		name: "Spritz",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Old-Fashioned glass",
 		instructions: "Build into glass over ice, garnish and serve.",
@@ -9126,9 +9126,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "69fae76d-b2d7-4fb7-a3ce-ee7ff85df36d",
+		id: "4b6ee60c-9e45-4c72-922a-7eef962f88db",
 		name: "Sazerac",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Old-fashioned glass",
 		instructions:
@@ -9163,9 +9163,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "9abfc1f7-eab8-40c8-b2ce-b0a50298d331",
+		id: "b06ba0ac-b4ae-43b8-9bcc-f2c61a067df1",
 		name: "Scooter",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -9188,9 +9188,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "dc02f854-976c-495e-a660-986cf36c9fc7",
+		id: "10b79eed-c7be-4b84-a209-ea1a5b96eb51",
 		name: "Sidecar",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -9213,9 +9213,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "76fc2a6d-20e7-4305-a826-b7fe6a76e999",
+		id: "2d92e5ce-0ebe-41b4-8080-804f29db7291",
 		name: "Stinger",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -9234,9 +9234,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "c33db241-a7e9-4559-ab15-913f083ddb3c",
+		id: "a7f17dbe-48f1-4557-bfe6-cf4ec3443597",
 		name: "Snowball",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Highball glass",
 		instructions:
@@ -9263,7 +9263,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "2f16c3cb-9a51-4673-9866-231f23271633",
+		id: "291542c4-8eef-4d93-b97e-d88dcd473af5",
 		name: "Shot-gun",
 		category: "Shot",
 		alcoholic: true,
@@ -9288,7 +9288,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "1b247f27-c33f-49f6-9aac-d84f7d07ce1c",
+		id: "bcea01b0-8f5f-4d3d-b49f-3deba367405d",
 		name: "Spice 75",
 		category: "Cocktail",
 		alcoholic: true,
@@ -9325,9 +9325,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "9d564631-5c69-4035-953a-20ece7cc1df3",
+		id: "669873d4-69e1-4f9c-926a-a31e1c5bb961",
 		name: "Salty Dog",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Highball glass",
 		instructions:
@@ -9350,9 +9350,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "5d6feb7f-d7bc-4dd3-9427-6ee74639ba5b",
+		id: "3ff32107-1423-4fd6-b419-bebe43d112c6",
 		name: "Stone Sour",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Whiskey sour glass",
 		instructions:
@@ -9375,9 +9375,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "05bd1d27-bd6f-4430-804e-65ea5b695fcd",
+		id: "7579c213-e930-4f55-acc8-20c7703e4eb9",
 		name: "Sangria #1",
-		category: "Punch / Party Drink",
+		category: "Party Drink",
 		alcoholic: true,
 		servingGlass: "Pitcher",
 		instructions:
@@ -9412,9 +9412,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "758496de-d9a1-4eb0-9804-2e6b0623e38c",
+		id: "749465dd-172f-4cd7-845c-6b6ee9fa7405",
 		name: "Sea breeze",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Highball glass",
 		instructions:
@@ -9437,9 +9437,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "37de54cc-34c3-42df-820e-519f2390b2f3",
+		id: "9b0f852c-a59d-49fa-9782-ec36e3c02e71",
 		name: "Scotch Sour",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Whiskey sour glass",
 		instructions:
@@ -9470,9 +9470,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "3912449e-1314-4d49-9fbf-a4e9c3d563c5",
+		id: "af12a86b-7eff-478a-a6d1-680d58df4779",
 		name: "Screwdriver",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Highball glass",
 		instructions: "Mix in a highball glass with ice. Garnish and serve.",
@@ -9490,9 +9490,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "f4d5057e-c290-4130-88a6-a16ddcf9b07a",
+		id: "13e9adc6-5ca7-497a-ac94-b7bf92791d28",
 		name: "Sherry Flip",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Nick and Nora Glass",
 		instructions:
@@ -9523,9 +9523,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "030a173e-abfc-4e54-ab30-3e261f97dc1b",
+		id: "b9f8a273-1b34-4a55-826f-d2d0db5bf099",
 		name: "Sweet Tooth",
-		category: "Milk / Float / Shake",
+		category: "Milkshake",
 		alcoholic: true,
 		servingGlass: "Highball Glass",
 		instructions:
@@ -9544,9 +9544,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "2c984204-0736-41d9-900f-a37d57a5e847",
+		id: "3fde39c5-bbc6-4a78-b3eb-d7eb42d0083a",
 		name: "Sol Y Sombra",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Brandy snifter",
 		instructions:
@@ -9565,7 +9565,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "61be56e4-7f40-41dc-bf9d-010a9cac9c06",
+		id: "d2a2e20e-a49c-43c1-8213-011f7fcd0768",
 		name: "Shark Attack",
 		category: "Cocktail",
 		alcoholic: true,
@@ -9590,9 +9590,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "f9ff7224-5eb6-4b5d-814c-e0cb93abb481",
+		id: "329bfeb7-17b6-4c6c-83f6-b40b32b778f8",
 		name: "Sherry Eggnog",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Collins glass",
 		instructions:
@@ -9623,9 +9623,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "81e94b5f-aace-44f3-a935-0e7c9cdd6c2d",
+		id: "32e43fb8-9f95-4a58-8390-58e214e0b1a8",
 		name: "Sweet Bananas",
-		category: "Milk / Float / Shake",
+		category: "Milkshake",
 		alcoholic: false,
 		servingGlass: "Highball Glass",
 		instructions:
@@ -9648,9 +9648,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "7d46be81-4cf4-42a3-9781-5f43fd8782be",
+		id: "5829c053-6d65-4c73-847d-38db07f2f8bc",
 		name: "Sweet Sangria",
-		category: "Punch / Party Drink",
+		category: "Party Drink",
 		alcoholic: true,
 		servingGlass: "Pitcher",
 		instructions:
@@ -9693,9 +9693,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "a0b5eac6-a0b8-4e57-8cf6-df33bae1fd92",
+		id: "b9eabec2-9d19-4889-9058-6c8e978adf1f",
 		name: "San Francisco",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Highball glass",
 		instructions:
@@ -9722,9 +9722,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "14776547-5376-451d-a856-19228c61343a",
+		id: "80610855-4b3d-4a53-9d7d-ddf18aff4c7b",
 		name: "Space Odyssey",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Highball glass",
 		instructions:
@@ -9759,9 +9759,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "34b92da0-bd90-4b00-a10e-810a118f5077",
+		id: "3293ae4c-0545-48b2-a5e4-ee8aad89e56e",
 		name: "Scotch Cobbler",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Old-fashioned glass",
 		instructions:
@@ -9792,9 +9792,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "78a5e492-d270-4493-b533-15482eacd393",
+		id: "5bdbcb5f-a0c2-4611-8f2d-15826563d0e0",
 		name: "Thriller",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -9817,9 +9817,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "c8962ab6-3b75-421f-b855-582e0ee2c294",
+		id: "5779b7c7-556a-48ff-a6a8-0c90681417b7",
 		name: "Tia-Maria",
-		category: "Homemade Liqueur",
+		category: "Liqueur",
 		alcoholic: true,
 		servingGlass: "Collins Glass",
 		instructions:
@@ -9850,7 +9850,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "1c1d201c-d038-46e3-ae8b-475840ec190e",
+		id: "70927423-c0e8-4761-8103-f5126a1c326f",
 		name: "Tipperary",
 		category: "Cocktail",
 		alcoholic: true,
@@ -9875,7 +9875,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "d2ed5e48-d1e5-445e-acd7-7eb9fc6ac03e",
+		id: "503073e5-9e29-460b-b077-cefec1d62645",
 		name: "Turkeyball",
 		category: "Shot",
 		alcoholic: true,
@@ -9899,9 +9899,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "5c2588e8-566b-48ea-8101-e56a16cc305c",
+		id: "395dd09e-a579-44fc-bef7-2081995a7bb2",
 		name: "Tom Collins",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Collins glass",
 		instructions:
@@ -9936,9 +9936,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "428cffe8-fb92-4eb6-8e41-a0de2a632d9d",
+		id: "05b149a8-5299-463c-a983-0135f90e9fad",
 		name: "Tomato Tang",
-		category: "Other / Unknown",
+		category: "Other",
 		alcoholic: false,
 		servingGlass: "Highball glass",
 		instructions:
@@ -9961,9 +9961,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "f264b124-5f02-4909-aa95-178fa34b550f",
+		id: "a4fccf15-fc21-42d1-8e25-676f5a4303ce",
 		name: "Thai Coffee",
-		category: "Coffee / Tea",
+		category: "Coffee or Tea",
 		alcoholic: false,
 		servingGlass: "Highball glass",
 		instructions:
@@ -9998,9 +9998,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "86a2d668-4673-4775-96d7-f8258553665e",
+		id: "2a667d49-7e8e-4fb1-8c58-1c15643735f8",
 		name: "Texas Sling",
-		category: "Milk / Float / Shake",
+		category: "Milkshake",
 		alcoholic: true,
 		servingGlass: "Wine Glass",
 		instructions:
@@ -10031,9 +10031,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "52fd47ae-daf7-436c-a003-e5bc063e5884",
+		id: "a1e0459c-3c83-4f71-a685-4b7d244e0cb2",
 		name: "Tequila Fizz",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Collins glass",
 		instructions:
@@ -10064,9 +10064,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "c34f478c-2347-4e26-871a-fd59dba7f5e0",
+		id: "2e5a1443-eeb1-4d98-8c86-1f8802a35293",
 		name: "Tequila Sour",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Whiskey sour glass",
 		instructions:
@@ -10097,9 +10097,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "2080ccf8-9af7-48d7-976a-35d6b60a4cea",
+		id: "d15fee82-33fe-40dc-a7ff-73721588f3d2",
 		name: "Talos Coffee",
-		category: "Coffee / Tea",
+		category: "Coffee or Tea",
 		alcoholic: true,
 		servingGlass: "Brandy snifter",
 		instructions: "Add your GM and then add your coffee.",
@@ -10117,9 +10117,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "055ea4bf-93cd-41b8-840f-771ab26a8f18",
+		id: "a9cf4724-d53c-4a9e-943e-5ecf8f65c5fa",
 		name: "Tennesee Mud",
-		category: "Coffee / Tea",
+		category: "Coffee or Tea",
 		alcoholic: true,
 		servingGlass: "Coffee Mug",
 		instructions: "Mix Coffee, Jack Daniels and Amaretto. Add Cream on top.",
@@ -10145,9 +10145,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "1e87c2ec-895e-4301-a9a5-978093e7d6fe",
+		id: "042a61ad-8576-4610-a92d-61afaec72572",
 		name: "Turf Cocktail",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -10178,9 +10178,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "b02658ad-0d78-450f-b2e1-ef7455e6cf23",
+		id: "8fc06e62-6cae-46bd-8b99-6534473ef3c9",
 		name: "Thai Iced Tea",
-		category: "Coffee / Tea",
+		category: "Coffee or Tea",
 		alcoholic: false,
 		servingGlass: "Highball glass",
 		instructions:
@@ -10211,7 +10211,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "5594c598-4ba2-4a8e-89a2-96c11b6df2a2",
+		id: "1bc2b348-0768-4dfb-a0d3-c12a9e02c600",
 		name: "The Last Word",
 		category: "Cocktail",
 		alcoholic: true,
@@ -10235,7 +10235,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "985f6a08-a2b3-4701-97b6-1d79e5c65f93",
+		id: "3ac18032-b946-4a1b-8f51-08f53c7e82d2",
 		name: "The Laverstoke",
 		category: "Cocktail",
 		alcoholic: true,
@@ -10276,9 +10276,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "96512fb8-6586-432b-a234-81ab7b3b5e9b",
+		id: "68e63a4c-9b3c-4cc7-951f-0b8de6a095f3",
 		name: "Tuxedo Cocktail",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -10313,7 +10313,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "59db9ce3-c3eb-4aff-8509-6ef27715b1d7",
+		id: "d5095966-82c2-4c9a-b4ba-98fdf8e6fd3f",
 		name: "Tequila Sunrise",
 		category: "Cocktail",
 		alcoholic: true,
@@ -10338,7 +10338,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "ee84a46e-0781-4565-9e1a-a76c1ba458c2",
+		id: "c78fd2e6-c343-45c0-9351-6c94e6ca21b3",
 		name: "Tequila Slammer",
 		category: "Shot",
 		alcoholic: true,
@@ -10358,7 +10358,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "b9d28733-59eb-4e8f-a814-e4b9e6515be8",
+		id: "4eee2148-08a3-4fc6-9d07-8b6f2423cf5e",
 		name: "The Philosopher",
 		category: "Cocktail",
 		alcoholic: true,
@@ -10391,9 +10391,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "53d9f82d-1455-4fb4-ae3c-3a157f95e40e",
+		id: "e7df9147-93ac-4903-a2f8-948975b57756",
 		name: "Thai Iced Coffee",
-		category: "Coffee / Tea",
+		category: "Coffee or Tea",
 		alcoholic: false,
 		servingGlass: "Highball glass",
 		instructions:
@@ -10420,7 +10420,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "20c627c4-f6af-48d7-ac52-0c95f25ec4b2",
+		id: "992b50ba-cf5e-4538-910a-92cd23734909",
 		name: "Tequila Surprise",
 		category: "Shot",
 		alcoholic: true,
@@ -10440,7 +10440,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "361be37c-24ed-4272-8ffb-48ed6ab15374",
+		id: "5cef2933-f08e-474b-a5bd-8d36dca33459",
 		name: "The Jimmy Conway",
 		category: "Cocktail",
 		alcoholic: true,
@@ -10465,7 +10465,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "d6e0181b-3086-476c-bea8-8e0ea38c5c23",
+		id: "81e75264-b9be-48d2-ac06-c60f731c63ba",
 		name: "Texas Rattlesnake",
 		category: "Shot",
 		alcoholic: true,
@@ -10494,9 +10494,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "22a45ac2-b248-495e-b5b1-1aae0a55f72c",
+		id: "30246a41-a558-4fc1-a2bd-3bf0ffa179e5",
 		name: "Tommy's Margarita",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Old-Fashioned glass",
 		instructions: "Shake and strain into a chilled cocktail glass.",
@@ -10518,9 +10518,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "68f02c93-2063-4ae5-a6fa-a380f185b0bc",
+		id: "a8bd5e33-9ed7-4885-a196-b0d8d33ea593",
 		name: "Victor",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -10543,7 +10543,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "5f434a15-41a1-436f-a805-6873cde85a02",
+		id: "1132df70-2fb5-44c3-82a0-d8f97fcb42d5",
 		name: "Vesper",
 		category: "Cocktail",
 		alcoholic: true,
@@ -10568,9 +10568,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "c8f73d99-43b8-4d7c-be71-240a450893e5",
+		id: "2bc3280d-2b40-42a7-9505-2b7fb9a90fde",
 		name: "Vesuvio",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Old-fashioned glass",
 		instructions:
@@ -10601,9 +10601,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "c6497891-9b89-4c85-863b-1df0b2b1982c",
+		id: "7147a88e-1a4a-4a55-8214-bee6279e6192",
 		name: "Veteran",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Old-fashioned glass",
 		instructions:
@@ -10622,9 +10622,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "2d171446-dad5-467a-a306-8cd8050a1213",
+		id: "92e2c986-2a31-4dbe-91a8-3fed18a2c2b1",
 		name: "Vampiro",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Old-Fashioned glass",
 		instructions:
@@ -10659,9 +10659,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "9d4a19a5-5c9f-42d0-863d-5cb3684ce624",
+		id: "0f3808f9-bd54-4b52-8240-aaa5032f7f26",
 		name: "Van Vleet",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Old-fashioned glass",
 		instructions:
@@ -10684,9 +10684,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "e8fdc94a-23d1-4777-a065-da55f2c7d3b6",
+		id: "e5af490b-bef5-444e-94f2-b5e8e3e96483",
 		name: "Vodka Fizz",
-		category: "Other / Unknown",
+		category: "Other",
 		alcoholic: true,
 		servingGlass: "White wine glass",
 		instructions:
@@ -10717,9 +10717,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "4a4e70cc-9d70-487a-918a-91f22c68bbe2",
+		id: "ebfc13ce-3024-4dfb-9ca7-7a83bebf4fed",
 		name: "Vodka Martini",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -10742,9 +10742,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "18762f85-1dab-4d6c-92aa-9b0846c3fc8e",
+		id: "47f07172-b44f-4683-ba36-8a989b322eb6",
 		name: "Vodka Russian",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Collins Glass",
 		instructions: "Mix it as a ordinary drink .",
@@ -10762,9 +10762,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "75bf4449-f677-4063-89d6-7860d5d0941d",
+		id: "b1f9ee9e-f699-4c39-842b-3371b6172d08",
 		name: "Vermouth Cassis",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Highball glass",
 		instructions:
@@ -10787,9 +10787,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "4a89a887-e7a4-419f-af7e-ac0ac25280d1",
+		id: "96b54fa3-99dc-4b17-a7c6-3b0f0c891ffd",
 		name: "Victory Collins",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Collins glass",
 		instructions:
@@ -10820,9 +10820,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "c375f69d-a9a0-4b37-8023-7ea0d5809841",
+		id: "c644cb2a-aee5-46ff-b44b-fb27f5489ab1",
 		name: "Vodka And Tonic",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Highball glass",
 		instructions:
@@ -10841,9 +10841,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "40f784cf-f25b-4838-9a75-5d2ed964e562",
+		id: "9298e48d-38df-4b15-9f32-f5623823d388",
 		name: "Valencia Cocktail",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -10866,9 +10866,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "cc6392b6-1ec8-4ee8-8d22-5bb6d025cbf7",
+		id: "7d8da3bd-d1dc-47cc-8d44-8e43db423b2e",
 		name: "Whisky Mac",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Collins Glass",
 		instructions:
@@ -10887,9 +10887,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "2ec217df-4a6f-4c68-adda-cab3a8d832db",
+		id: "26df3a7a-f323-4dd1-9493-c3f04bde6c72",
 		name: "Wine Punch",
-		category: "Punch / Party Drink",
+		category: "Party Drink",
 		alcoholic: true,
 		servingGlass: "Collins Glass",
 		instructions:
@@ -10920,9 +10920,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "c6d91ba2-8c2c-40dc-99bd-efb2977fbf3a",
+		id: "2b7eb22a-ba5b-4e5f-835c-3e7e6891e9ff",
 		name: "White Lady",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -10945,9 +10945,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "584f9d51-81f4-46bc-9069-98ff3a2d7435",
+		id: "9d52c384-aa4b-4696-9ccb-d4b4d5e54834",
 		name: "Wine Cooler",
-		category: "Punch / Party Drink",
+		category: "Party Drink",
 		alcoholic: false,
 		servingGlass: "Collins Glass",
 		instructions: "Mix wine and soft drink. Pour into glass. Add ice.",
@@ -10969,9 +10969,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "552ebf8b-912b-4f6c-836e-704b128c013b",
+		id: "1c0762ec-48db-4b2b-8a0c-dcf5a575dc0a",
 		name: "Whiskey Sour",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Old-fashioned glass",
 		instructions:
@@ -11002,9 +11002,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "8c62d52c-6707-4390-abd0-69c405cb482a",
+		id: "74540faf-1344-4558-ba13-b24913895294",
 		name: "White Russian",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Old-fashioned glass",
 		instructions:
@@ -11027,9 +11027,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "f98652bd-89e9-4707-af92-bf956ce3daa4",
+		id: "c26e070a-4ad5-4a91-b4bd-53068d8d8b77",
 		name: "Whitecap Margarita",
-		category: "Other / Unknown",
+		category: "Other",
 		alcoholic: true,
 		servingGlass: "Margarita/Coupette glass",
 		instructions:
@@ -11056,9 +11056,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "0f1cbd9a-e0c6-4652-85a1-bbfb6a7b5547",
+		id: "6581ba88-fcd3-4208-9b57-a4230133cc4b",
 		name: "White Wine Sangria",
-		category: "Punch / Party Drink",
+		category: "Party Drink",
 		alcoholic: true,
 		servingGlass: "Pitcher",
 		instructions:
@@ -11097,9 +11097,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "9c50ac72-b189-40d4-939a-250e22235f8c",
+		id: "31ac44ae-caf1-446c-811e-627aa6f5386a",
 		name: "Waikiki Beachcomber",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Cocktail glass",
 		instructions:
@@ -11122,7 +11122,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "ccda3a7f-b21c-4d2b-ac54-40140771e0dc",
+		id: "a1de1380-3650-458c-8192-2b1c64e50f78",
 		name: "Yellow Bird",
 		category: "Cocktail",
 		alcoholic: true,
@@ -11150,9 +11150,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "0da73b2d-f757-442c-af7f-24f80611e203",
+		id: "824ea78f-36f0-4eee-a5f3-1d6bc6b381c6",
 		name: "Yoghurt Cooler",
-		category: "Other / Unknown",
+		category: "Other",
 		alcoholic: false,
 		servingGlass: "Highball Glass",
 		instructions:
@@ -11175,9 +11175,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "7b96ab5a-f0f5-4abe-b590-f2818e964e62",
+		id: "ec352bed-eea2-4a6a-bdd0-79f7d5c551d7",
 		name: "Zorro",
-		category: "Coffee / Tea",
+		category: "Coffee or Tea",
 		alcoholic: true,
 		servingGlass: "Coffee Mug",
 		instructions: "add all and pour black coffee and add whipped cream on top.",
@@ -11199,9 +11199,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "4d7b8ecf-31b7-41d0-b845-737652da8dc3",
+		id: "bc404b4d-5c58-45e4-a3f4-b5c7b25dbc6a",
 		name: "Zinger",
-		category: "Soft Drink / Soda",
+		category: "Soft Drink",
 		alcoholic: true,
 		servingGlass: "Highball glass",
 		instructions:
@@ -11220,9 +11220,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "18ac78f4-9e59-4b30-bc6f-971eb67a3cda",
+		id: "df4775e2-fbbf-4944-8a2c-3c75105de00b",
 		name: "Zoksel",
-		category: "Soft Drink / Soda",
+		category: "Soft Drink",
 		alcoholic: true,
 		servingGlass: "Beer pilsner",
 		instructions:
@@ -11261,7 +11261,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "f2a0845a-09c3-47b5-895f-8cebac7a46df",
+		id: "a27db69d-e9a1-4bb1-8853-1c094aeb297d",
 		name: "Zombie",
 		category: "Cocktail",
 		alcoholic: true,
@@ -11302,9 +11302,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "8e2076be-e851-4b88-9088-97fa0cf572b7",
+		id: "5a9d0d67-6f81-4489-b50f-facd88de0fed",
 		name: "Zambeer",
-		category: "Soft Drink / Soda",
+		category: "Soft Drink",
 		alcoholic: true,
 		servingGlass: "Collins Glass",
 		instructions: "Mix sambuca with rootbeer and stir. Add ice",
@@ -11326,7 +11326,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "c16df908-80fb-4693-844b-13e1a299aab8",
+		id: "960b01f6-1c81-42b3-964f-08c7773d0a21",
 		name: "Zorbatini",
 		category: "Cocktail",
 		alcoholic: true,
@@ -11346,9 +11346,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "1fb4371d-383a-4cec-af0f-dcf9a3667123",
+		id: "d1e18d10-085e-46e3-9602-b33e45dd8f24",
 		name: "Zenmeister",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Collins Glass",
 		instructions: "Mix together and enjoy",
@@ -11366,7 +11366,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "fc54697c-bc64-458d-833f-2510089fac20",
+		id: "9de056d3-80ce-4a0f-aa94-94b136117d01",
 		name: "Zipperhead",
 		category: "Shot",
 		alcoholic: true,
@@ -11391,9 +11391,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "47071119-4181-468d-bf8a-01353c91e603",
+		id: "446a569f-795e-409e-a2a8-b5a525daecd3",
 		name: "Zima Blaster",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Hurricane glass",
 		instructions:
@@ -11412,9 +11412,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "bd96c4e7-f0c2-48c6-84ce-5c1956d6ee76",
+		id: "c0567043-4d9a-47d5-9b7e-201fe4a4f0a5",
 		name: "Zizi Coin-coin",
-		category: "Punch / Party Drink",
+		category: "Party Drink",
 		alcoholic: true,
 		servingGlass: "Margarita/Coupette glass",
 		instructions:
@@ -11441,7 +11441,7 @@ module.exports = [
 		],
 	},
 	{
-		id: "e95f3c3a-00e1-4701-bc80-95d5fa2ec80b",
+		id: "30d06f38-99fa-4e93-9061-fdea8869d5e8",
 		name: "Zippy's Revenge",
 		category: "Cocktail",
 		alcoholic: true,
@@ -11466,9 +11466,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "da2b60e7-5dd7-422c-9fbc-9e242a4653c4",
+		id: "ac6337fd-1ad9-4d39-9103-48aebf925934",
 		name: "Zimadori Zinger",
-		category: "Punch / Party Drink",
+		category: "Party Drink",
 		alcoholic: true,
 		servingGlass: "Collins glass",
 		instructions:
@@ -11487,9 +11487,9 @@ module.exports = [
 		],
 	},
 	{
-		id: "10a859fa-279f-49cb-9485-10a7f3ecdbfc",
+		id: "0ae079c2-4d8a-4000-8cbf-4a1d255401d5",
 		name: "Ziemes Martini Apfelsaft",
-		category: "Ordinary Drink",
+		category: "Basic",
 		alcoholic: true,
 		servingGlass: "Collins Glass",
 		instructions:

@@ -8,22 +8,24 @@ import {
 let theme = createMuiTheme({
 	typography: {
 		fontFamily:
-			"Franklin Gothic Bold, Charcoal, Helvetica Inserat, Bitstream Vera Sans Bold, Arial, sans-serif",
+			"Geneva, Lucida Sans, Lucida Grande, Lucida Sans Unicode, Verdana, sans-serif",
 	},
 	palette: {
 		primary: {
-			main: "#55c49d",
-			// light: "#89f7ce",
-			light: "#aadad2",
-			dark: "#15936f",
-			contrastText: "#000000",
+			main: "#9C27B0",
+			light: "#E1BEE7",
+			dark: "#7B1FA2",
+			contrastText: "#FFFFFF",
 		},
 		secondary: {
-			main: "#007f76",
-			light: "#4bafa5",
-			dark: "#00524a",
-			contrastText: "#ffffff",
+			main: "#9C27B0",
+			light: "#E1BEE7",
+			dark: "#7B1FA2",
+			contrastText: "#FFFFFF",
 		},
+	},
+	status: {
+		danger: "#F44336",
 	},
 });
 

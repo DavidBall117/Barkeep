@@ -1,7 +1,15 @@
 import React from "react";
-import { makeStyles, Container } from "@material-ui/core";
+import { makeStyles, Container, Hidden } from "@material-ui/core";
+import {
+	Star as FavouriteIcon,
+	Search as SearchIcon,
+	Category as CategoryIcon,
+} from "@material-ui/icons";
 import MyTopNavigation from "../navigation/MyTopNavigation";
 import MyBottomNavigation from "../navigation/MyBottomNavigation";
+// import Logo from "../assets/darkLogoSilhouette.png";
+import Logo from "../assets/icons/bar.svg";
+import MyBackToTopButton from "../components/MyBackToTopButton";
 
 const useStyles = makeStyles((theme) => ({
 	root: {
@@ -18,15 +26,49 @@ const useStyles = makeStyles((theme) => ({
 		width: "100%",
 		height: "100%",
 		overflowY: "auto",
+		padding: "0.5rem",
+		scrollBehavior: "smooth",
 	},
 }));
 
+const pathMap = [
+	{
+		path: "/",
+		label: "Favourites",
+		icon: <FavouriteIcon />,
+	},
+	{
+		path: "/search",
+		label: "Search",
+		icon: <SearchIcon />,
+	},
+	{
+		path: "/categories",
+		label: "Categories",
+		icon: <CategoryIcon />,
+	},
+];
+
 export default function MasterLayout(props) {
 	const classes = useStyles();
-
+	const [showScrollButton, setShowScrollButton] = React.useState(false);
 	return (
 		<Container maxWidth="xl" disableGutters className={classes.root}>
-			<MyTopNavigation />
+			<Hidden mdDown>
+				<MyTopNavigation
+					appLogoSilhouette={Logo}
+					appTitle="Mixologist"
+					pathMap={pathMap}
+				/>
+			</Hidden>
+			<Hidden lgUp>
+				<MyTopNavigation
+					appLogoSilhouette={Logo}
+					appTitle="Mixologist"
+					variant="dense"
+				/>
+			</Hidden>
+
 			<Container
 				maxWidth="xl"
 				disableGutters
@@ -36,11 +78,26 @@ export default function MasterLayout(props) {
 					maxWidth="xl"
 					disableGutters
 					className={classes.innerContainer}
+					id="MainContainer"
+					onScroll={(e) => {
+						e.target.scrollTop > e.target.clientHeight * 2
+							? setShowScrollButton(true)
+							: setShowScrollButton(false);
+					}}
 				>
 					{props.children}
+					<MyBackToTopButton
+						show={showScrollButton}
+						onClick={(e) => {
+							document.getElementById("MainContainer").scrollTop = 0;
+						}}
+					/>
 				</Container>
 			</Container>
-			<MyBottomNavigation />
+
+			<Hidden lgUp>
+				<MyBottomNavigation pathMap={pathMap} />
+			</Hidden>
 		</Container>
 	);
 }

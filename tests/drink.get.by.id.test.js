@@ -10,7 +10,7 @@ describe(`GET /api/drinks/0cd6614a-d543-4889-ae5d-9a1a338a6b8c`, () => {
 	it(`should return a Drink object`, (done) => {
 		chai
 			.request(server)
-			.get(`/api/drinks/0cd6614a-d543-4889-ae5d-9a1a338a6b8c`)
+			.get(`/api/drinks/0492662b-44f7-4b0d-80a4-1471d6419bec`)
 			.end((err, res) => {
 				expect(err).to.be.null;
 				expect(res).to.have.status(200);

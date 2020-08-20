@@ -6,6 +6,7 @@ const bodyParser = require(`body-parser`);
 const cors = require(`cors`)();
 const port = process.env.PORT || 5000;
 const env = process.env.NODE_ENV || `local`;
+const maxAge = process.env.CACHE_CONTROL_MAX_AGE || 2592000;
 const routes = require(`./routes`);
 
 if (env === `local`) {
@@ -37,6 +38,14 @@ app.use(`/`, express.static(path.join(__dirname, `web-app/build`)));
 app.get(`/*`, (req, res) => {
 	res.sendFile(path.join(__dirname, `web-app/build`, `index.html`));
 });
+
+// http cache control
+if (env === `production`) {
+	app.use((req, res, next) => {
+		res.set(`Cache-Control`, `public, max-age=${maxAge}`);
+		next();
+	});
+}
 
 // error handling
 app.use((err, req, res, next) => {

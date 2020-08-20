@@ -4,7 +4,7 @@ const { v4 } = require(`uuid`);
 
 const BASE_URL = `https://www.thecocktaildb.com/api/json/v1/1/search.php?f=`;
 const ALHPABET = `abcdefghijklmnopqrstuvwxyz`;
-const DATA_FILE = `data2.js`;
+const DATA_FILE = `data.js`;
 
 (async () => {
 	// scrape all drinks from thecocktaildb
@@ -33,10 +33,27 @@ const DATA_FILE = `data2.js`;
 					}
 				}
 
+				let category = drink.strCategory;
+				if (category.toLocaleLowerCase() === `coffee / tea`) {
+					category = `Coffee or Tea`;
+				} else if (category.toLocaleLowerCase() === `milk / float / shake`) {
+					category = `Milkshake`;
+				} else if (category.toLocaleLowerCase() === `other/unknown`) {
+					category = `Other`;
+				} else if (category.toLocaleLowerCase() === `punch / party drink`) {
+					category = `Party Drink`;
+				} else if (category.toLocaleLowerCase() === `soft drink / soda`) {
+					category = `Soft Drink`;
+				} else if (category.toLocaleLowerCase() === `ordinary drink`) {
+					category = `Basic`;
+				} else if (category.toLocaleLowerCase() === `homemade liqueur`) {
+					category = `Liqueur`;
+				}
+
 				drinks.push({
 					id: v4(),
 					name: drink.strDrink,
-					category: drink.strCategory,
+					category,
 					alcoholic: drink.strAlcoholic.toLocaleLowerCase() === `alcoholic`,
 					servingGlass: drink.strGlass,
 					instructions: drink.strInstructions,
