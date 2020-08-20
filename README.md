@@ -5,7 +5,7 @@
 - Have latest verion of Git installed on your machine.
 - Have NodeJS >= 12 installed on your machine.
 - Clone repository from GitHub.
-- Configure `.env` file.
+- Configure `.env` files.
 - Run `npm install` in the root directory to install server dependencies.
 - Run `npm install` and then `npm run build` in the web-client react project to install dependencies and compile the web app.
 - Run `npm start` in the root directory to launch the server.
