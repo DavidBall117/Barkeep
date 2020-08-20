@@ -4,7 +4,7 @@ import {
 	StarBorder as FavouriteIconLines,
 	Star as FavouriteIconFilled,
 } from "@material-ui/icons";
-import { isDrinkFavourited, favouriteDrink } from "../MixologistService";
+import { isDrinkFavourited, favouriteDrink } from "../RestService";
 import MyToast from "./MyToast";
 
 export default function MyFavouriteButton(props) {

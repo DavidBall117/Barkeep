@@ -7,8 +7,7 @@ import {
 } from "@material-ui/icons";
 import MyTopNavigation from "../navigation/MyTopNavigation";
 import MyBottomNavigation from "../navigation/MyBottomNavigation";
-// import Logo from "../assets/darkLogoSilhouette.png";
-import Logo from "../assets/icons/bar.svg";
+import Logo from "../assets/barLogoLight.svg";
 import MyBackToTopButton from "../components/MyBackToTopButton";
 
 const useStyles = makeStyles((theme) => ({
@@ -57,14 +56,14 @@ export default function MasterLayout(props) {
 			<Hidden mdDown>
 				<MyTopNavigation
 					appLogoSilhouette={Logo}
-					appTitle="Mixologist"
+					appTitle="Barkeep"
 					pathMap={pathMap}
 				/>
 			</Hidden>
 			<Hidden lgUp>
 				<MyTopNavigation
 					appLogoSilhouette={Logo}
-					appTitle="Mixologist"
+					appTitle="Barkeep"
 					variant="dense"
 				/>
 			</Hidden>

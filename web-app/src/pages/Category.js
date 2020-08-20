@@ -1,11 +1,10 @@
 import React, { useState } from "react";
-import { useParams, useHistory } from "react-router-dom";
-import { getDrinks } from "../MixologistService";
+import { useParams } from "react-router-dom";
+import { getDrinks } from "../RestService";
 import MyPage from "../components/MyPage";
 import MyList from "../components/MyList";
 
 export default function Category() {
-	const history = useHistory();
 	const { category } = useParams();
 	const [drinks, setDrinks] = useState([]);
 
@@ -14,13 +13,9 @@ export default function Category() {
 		setDrinks(response.data);
 	}
 
-	const onSelect = (id) => {
-		history.push(`/recipe/${id}`);
-	};
-
 	return (
 		<MyPage title={`${category.toLocaleUpperCase()}`} fetchData={fetchData}>
-			<MyList data={drinks} category={category} onSelect={onSelect} />
+			<MyList data={drinks} category={category} />
 		</MyPage>
 	);
 }

@@ -12,16 +12,15 @@ let theme = createMuiTheme({
 	},
 	palette: {
 		primary: {
-			main: "#55c49d",
-			// light: "#89f7ce",
-			light: "#aadad2",
-			dark: "#15936f",
-			contrastText: "#000000",
+			main: "#8d6e63",
+			light: "#efdcd5",
+			dark: "#8c7b75",
+			contrastText: "#ffffff",
 		},
 		secondary: {
-			main: "#007f76",
-			light: "#4bafa5",
-			dark: "#00524a",
+			main: "#8d6e63",
+			light: "#efdcd5",
+			dark: "#8c7b75",
 			contrastText: "#ffffff",
 		},
 	},

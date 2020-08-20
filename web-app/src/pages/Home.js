@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { makeStyles, Grid } from "@material-ui/core";
 import MyRecipeCard from "../components/MyRecipeCard";
 import MyToast from "../components/MyToast";
-import { getFavouriteDrinks } from "../MixologistService";
+import { getFavouriteDrinks } from "../RestService";
 
 const useStyles = makeStyles((theme) => ({
 	root: {

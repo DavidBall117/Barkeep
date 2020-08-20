@@ -1,4 +1,5 @@
 import React from "react";
+import { useHistory } from "react-router-dom";
 import {
 	makeStyles,
 	List,
@@ -26,6 +27,7 @@ const useStyles = makeStyles((theme) => ({
 
 export default function MyList(props) {
 	const classes = useStyles();
+	const history = useHistory();
 	return (
 		<List className={classes.root}>
 			{props.data.map((x) => {
@@ -34,7 +36,7 @@ export default function MyList(props) {
 						button
 						key={x.id}
 						className={classes.listItem}
-						onClick={() => props.onSelect(x.id)}
+						onClick={() => history.push(`/recipe/${x.id}`)}
 					>
 						<ListItemAvatar>
 							<Avatar alt={`image of ${x.name}`} src={x.image} />

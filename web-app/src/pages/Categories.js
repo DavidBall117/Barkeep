@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { useHistory } from "react-router-dom";
 import { makeStyles, Grid, Container } from "@material-ui/core";
-import { getCategories } from "../MixologistService";
+import { getCategories } from "../RestService";
 import MyCard from "../components/MyCard";
 import MyLoadingIcon from "../components/MyLoadingIcon";
 import MyToast from "../components/MyToast";

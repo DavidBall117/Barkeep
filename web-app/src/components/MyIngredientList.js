@@ -50,7 +50,7 @@ export default function MyIngredientList(props) {
 						</ListItemIcon>
 						<ListItemText
 							id={JSON.stringify(i)}
-							primary={`${i.amount} of ${i.name}`}
+							primary={`${i.amount ? i.amount + " of " : ""}${i.name}`}
 						/>
 					</ListItem>
 				);

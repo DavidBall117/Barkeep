@@ -1,5 +1,5 @@
 {
-	"name": "mixologistrecipes",
+	"name": "barkeep",
 	"version": "1.0.0",
 	"description": "Drink recipes for bartenders.",
 	"main": "app.js",
@@ -15,13 +15,12 @@
 		"scrape-recipes-debug": "node --inspect-brk scrape-recipes.js"
 	},
 	"keywords": [
-		"mixologist",
 		"bartender",
 		"drinks"
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/DavidBall117/MixologistRecipes.git"
+		"url": "https://github.com/DavidBall117/Barkeep.git"
 	},
 	"devDependencies": {
 		"axios": "^0.19.2",

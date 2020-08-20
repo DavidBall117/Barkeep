@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   description: "Drink recipes for bartenders."
   version: "1.0.0"
-  title: "Mixologist Recipes"
+  title: "Barkeep"
   license:
     name: "MIT"
     url: "https://opensource.org/licenses/MIT"

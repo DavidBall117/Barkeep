@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import { makeStyles, Grid, Typography } from "@material-ui/core";
-import { getDrink } from "../MixologistService";
+import { getDrink } from "../RestService";
 import MyPage from "../components/MyPage";
 import MyFavouriteButton from "../components/MyFavouriteButton";
 import MyIngredientList from "../components/MyIngredientList";
