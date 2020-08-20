@@ -1,19 +1,36 @@
 {
   "files": {
-    "main.js": "/static/js/main.ae185829.chunk.js",
-    "main.js.map": "/static/js/main.ae185829.chunk.js.map",
+    "main.css": "/static/css/main.67e22be6.chunk.css",
+    "main.js": "/static/js/main.bdc76988.chunk.js",
+    "main.js.map": "/static/js/main.bdc76988.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d5bfd598.js",
     "runtime-main.js.map": "/static/js/runtime-main.d5bfd598.js.map",
-    "static/js/2.a5ca8016.chunk.js": "/static/js/2.a5ca8016.chunk.js",
-    "static/js/2.a5ca8016.chunk.js.map": "/static/js/2.a5ca8016.chunk.js.map",
+    "static/js/2.9ac48633.chunk.js": "/static/js/2.9ac48633.chunk.js",
+    "static/js/2.9ac48633.chunk.js.map": "/static/js/2.9ac48633.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ad4847346cf1d028d2741957f9c53bfa.js": "/precache-manifest.ad4847346cf1d028d2741957f9c53bfa.js",
+    "precache-manifest.79fd504889da57c08e24780cbb9fe329.js": "/precache-manifest.79fd504889da57c08e24780cbb9fe329.js",
     "service-worker.js": "/service-worker.js",
-    "static/js/2.a5ca8016.chunk.js.LICENSE.txt": "/static/js/2.a5ca8016.chunk.js.LICENSE.txt"
+    "static/css/main.67e22be6.chunk.css.map": "/static/css/main.67e22be6.chunk.css.map",
+    "static/js/2.9ac48633.chunk.js.LICENSE.txt": "/static/js/2.9ac48633.chunk.js.LICENSE.txt",
+    "static/media/alcoholic.svg": "/static/media/alcoholic.6ea50764.svg",
+    "static/media/barLogoLight.svg": "/static/media/barLogoLight.b4f4d51f.svg",
+    "static/media/beer.svg": "/static/media/beer.c9994697.svg",
+    "static/media/bottles.svg": "/static/media/bottles.ed38fc2c.svg",
+    "static/media/cocoa.svg": "/static/media/cocoa.a8552ac6.svg",
+    "static/media/coffee.svg": "/static/media/coffee.9ea2c245.svg",
+    "static/media/drink.svg": "/static/media/drink.92696630.svg",
+    "static/media/liqueur.svg": "/static/media/liqueur.1fe9c7a0.svg",
+    "static/media/martini.svg": "/static/media/martini.bba3369b.svg",
+    "static/media/non-alcoholic.svg": "/static/media/non-alcoholic.e0779f5a.svg",
+    "static/media/punch.svg": "/static/media/punch.a020d31e.svg",
+    "static/media/shake.svg": "/static/media/shake.8386de9f.svg",
+    "static/media/shot.svg": "/static/media/shot.fde5259e.svg",
+    "static/media/soda.svg": "/static/media/soda.0ef2fa13.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.d5bfd598.js",
-    "static/js/2.a5ca8016.chunk.js",
-    "static/js/main.ae185829.chunk.js"
+    "static/js/2.9ac48633.chunk.js",
+    "static/css/main.67e22be6.chunk.css",
+    "static/js/main.bdc76988.chunk.js"
   ]
 }
