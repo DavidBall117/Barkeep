@@ -11,6 +11,7 @@ import {
 	Typography,
 } from "@material-ui/core";
 import { NavigateNext as NavigateNextIcon } from "@material-ui/icons";
+
 import MyIngredientChips from "../components/MyIngredientChips";
 
 const useStyles = makeStyles((theme) => ({

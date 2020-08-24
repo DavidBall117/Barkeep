@@ -5,10 +5,29 @@ import {
 	Search as SearchIcon,
 	Category as CategoryIcon,
 } from "@material-ui/icons";
+
+import Logo from "../assets/barLogoLight.svg";
 import MyTopNavigation from "../navigation/MyTopNavigation";
 import MyBottomNavigation from "../navigation/MyBottomNavigation";
-import Logo from "../assets/barLogoLight.svg";
 import MyBackToTopButton from "../components/MyBackToTopButton";
+
+const pathMap = [
+	{
+		path: "/",
+		label: "Favourites",
+		icon: <FavouriteIcon />,
+	},
+	{
+		path: "/search",
+		label: "Search",
+		icon: <SearchIcon />,
+	},
+	{
+		path: "/categories",
+		label: "Categories",
+		icon: <CategoryIcon />,
+	},
+];
 
 const useStyles = makeStyles((theme) => ({
 	root: {
@@ -29,24 +48,6 @@ const useStyles = makeStyles((theme) => ({
 		scrollBehavior: "smooth",
 	},
 }));
-
-const pathMap = [
-	{
-		path: "/",
-		label: "Favourites",
-		icon: <FavouriteIcon />,
-	},
-	{
-		path: "/search",
-		label: "Search",
-		icon: <SearchIcon />,
-	},
-	{
-		path: "/categories",
-		label: "Categories",
-		icon: <CategoryIcon />,
-	},
-];
 
 export default function MasterLayout(props) {
 	const classes = useStyles();
@@ -79,6 +80,7 @@ export default function MasterLayout(props) {
 					className={classes.innerContainer}
 					id="MainContainer"
 					onScroll={(e) => {
+						e.target.id === "MainContainer" &&
 						e.target.scrollTop > e.target.clientHeight * 2
 							? setShowScrollButton(true)
 							: setShowScrollButton(false);

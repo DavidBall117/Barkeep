@@ -15,7 +15,7 @@ export default function Category() {
 
 	return (
 		<MyPage title={`${category.toLocaleUpperCase()}`} fetchData={fetchData}>
-			<MyList data={drinks} category={category} />
+			<MyList data={drinks} />
 		</MyPage>
 	);
 }

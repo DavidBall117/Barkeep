@@ -13,6 +13,7 @@ import {
 	Icon,
 } from "@material-ui/core";
 import { ExpandMore as ExpandMoreIcon } from "@material-ui/icons";
+
 import MyFavouriteButton from "../components/MyFavouriteButton";
 import MyIngredientList from "../components/MyIngredientList";
 import MyIngredientChips from "../components/MyIngredientChips";
@@ -67,7 +68,7 @@ export default function MyRecipeCard(props) {
 					</IconButton>
 				}
 				title={props.drink.name}
-				subheader={`Added On: ${new Date(
+				subheader={`Added on: ${new Date(
 					props.drink.addedOn
 				).toLocaleDateString()}`}
 			/>

@@ -13,8 +13,8 @@ const useStyles = makeStyles((theme) => ({
 		padding: "2rem",
 		backgroundColor: theme.palette.primary.light,
 		borderRadius: "1rem",
-		marginTop: "2rem",
-		marginBottom: "2rem",
+		marginTop: "1rem",
+		marginBottom: "1rem",
 		boxShadow:
 			"0px 5px 5px -3px rgba(0,0,0,0.2), 0px 8px 10px 1px rgba(0,0,0,0.14), 0px 3px 14px 2px rgba(0,0,0,0.12)",
 	},

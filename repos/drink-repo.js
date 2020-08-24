@@ -22,7 +22,7 @@ const get = async (
 			alcoholic !== null &&
 			alcoholic !== x.alcoholic
 		) {
-			validItem = false;
+			return false;
 		}
 		if (
 			category &&

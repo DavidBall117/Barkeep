@@ -4,6 +4,7 @@ const express = require(`express`);
 const app = express();
 const bodyParser = require(`body-parser`);
 const cors = require(`cors`)();
+const helmet = require(`helmet`);
 const port = process.env.PORT || 5000;
 const env = process.env.NODE_ENV || `local`;
 const maxAge = process.env.CACHE_CONTROL_MAX_AGE || 2592000;
@@ -15,6 +16,7 @@ if (env === `local`) {
 
 if (env === `production`) {
 	app.enable(`trust proxy`);
+	app.use(helmet());
 }
 
 // utilities

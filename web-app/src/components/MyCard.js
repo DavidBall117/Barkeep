@@ -11,7 +11,7 @@ import {
 
 const useStyles = makeStyles((theme) => ({
 	root: {
-		minWidth: 275,
+		width: 275,
 		maxWidth: "100%",
 	},
 	card: {

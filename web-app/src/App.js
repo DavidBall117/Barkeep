@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Theme from "./Theme";
 import MyMasterLayout from "./layouts/MyMasterLayout";
 import Home from "./pages/Home";
 import Search from "./pages/Search";
@@ -8,6 +7,8 @@ import Categories from "./pages/Categories";
 import Category from "./pages/Category";
 import Recipe from "./pages/Recipe";
 import NotFound from "./pages/NotFound";
+
+import Theme from "./Theme";
 
 export default function App() {
 	return (

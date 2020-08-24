@@ -20,7 +20,7 @@ export const getDrinks = async (
 ) => {
 	let endpoint = `/drinks?`;
 	let query = {};
-	if (alcoholic) query.alcoholic = alcoholic;
+	if (alcoholic !== null) query.alcoholic = alcoholic;
 	if (category) query.category = category;
 	if (ingredient) query.ingredient = ingredient;
 	if (glass) query.glass = glass;
