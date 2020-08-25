@@ -61,7 +61,7 @@ async function getBase64String(uri) {
 				}
 
 				// get image, resize
-				const base64Str = await getBase64String(drink.strDrinkThumb);
+				// const base64Str = await getBase64String(drink.strDrinkThumb);
 
 				// add drink to array
 				drinks.push({
@@ -71,7 +71,8 @@ async function getBase64String(uri) {
 					alcoholic: drink.strAlcoholic.toLocaleLowerCase() === `alcoholic`,
 					servingGlass: drink.strGlass,
 					instructions: drink.strInstructions,
-					image: `data:image/jpg;base64,${base64Str}`,
+					// image: `data:image/jpg;base64,${base64Str}`,
+					image: drink.strDrinkThumb,
 					ingredients,
 				});
 			}
