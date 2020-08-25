@@ -24,6 +24,10 @@ const useStyles = makeStyles((theme) => ({
 		boxShadow:
 			"0px 5px 5px -3px rgba(0,0,0,0.2), 0px 8px 10px 1px rgba(0,0,0,0.14), 0px 3px 14px 2px rgba(0,0,0,0.12)",
 	},
+	avatar: {
+		placeSelf: "flex-start",
+		marginTop: "0.5rem",
+	},
 }));
 
 export default function MyList(props) {
@@ -39,7 +43,7 @@ export default function MyList(props) {
 						className={classes.listItem}
 						onClick={() => history.push(`/recipe/${x.id}`)}
 					>
-						<ListItemAvatar>
+						<ListItemAvatar className={classes.avatar}>
 							<Avatar alt={`image of ${x.name}`} src={x.image} />
 						</ListItemAvatar>
 						<ListItemText>
