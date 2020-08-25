@@ -1,4 +1,4 @@
-const data = require(`../data`);
+const data = require(`../data2`);
 
 const retrieveListOf = async (property) => {
 	const items = new Set();

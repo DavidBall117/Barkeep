@@ -4,13 +4,21 @@ const { v4 } = require(`uuid`);
 
 const BASE_URL = `https://www.thecocktaildb.com/api/json/v1/1/search.php?f=`;
 const ALHPABET = `abcdefghijklmnopqrstuvwxyz`;
-const DATA_FILE = `data.js`;
+const DATA_FILE = `data2.js`;
+
+async function getBase64String(uri) {
+	const response = await axios.get(uri, {
+		responseType: `arraybuffer`,
+	});
+	return Buffer.from(response.data, `binary`).toString(`base64`);
+}
 
 (async () => {
 	// scrape all drinks from thecocktaildb
 	let drinks = [];
 	for (let i = 0; i < ALHPABET.length; i++) {
 		const uri = `${BASE_URL}${ALHPABET[i]}`;
+
 		try {
 			const response = await axios.get(uri);
 			if (!response.data.drinks) {
@@ -19,6 +27,7 @@ const DATA_FILE = `data.js`;
 			for (let j = 0; j < response.data.drinks.length; j++) {
 				const drink = response.data.drinks[j];
 
+				// create array of ingredient objects for drink
 				let ingredients = [];
 				for (let num = 1; num <= 15; num++) {
 					const ii = `strIngredient` + num;
@@ -33,6 +42,7 @@ const DATA_FILE = `data.js`;
 					}
 				}
 
+				// normalize categories
 				let category = drink.strCategory;
 				if (category.toLocaleLowerCase() === `coffee / tea`) {
 					category = `Coffee or Tea`;
@@ -50,6 +60,10 @@ const DATA_FILE = `data.js`;
 					category = `Liqueur`;
 				}
 
+				// get image, resize
+				const base64Str = await getBase64String(drink.strDrinkThumb);
+
+				// add drink to array
 				drinks.push({
 					id: v4(),
 					name: drink.strDrink,
@@ -57,7 +71,7 @@ const DATA_FILE = `data.js`;
 					alcoholic: drink.strAlcoholic.toLocaleLowerCase() === `alcoholic`,
 					servingGlass: drink.strGlass,
 					instructions: drink.strInstructions,
-					image: drink.strDrinkThumb,
+					image: `data:image/jpg;base64,${base64Str}`,
 					ingredients,
 				});
 			}
