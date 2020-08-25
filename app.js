@@ -11,8 +11,8 @@ const maxAge = process.env.CACHE_CONTROL_MAX_AGE || 2592000;
 const routes = require(`./routes`);
 
 if (env === `local`) {
+	app.use(cors);
 }
-app.use(cors);
 
 if (env === `production`) {
 	app.enable(`trust proxy`);
