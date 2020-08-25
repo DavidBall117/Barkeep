@@ -68,9 +68,7 @@ export default function MyRecipeCard(props) {
 					</IconButton>
 				}
 				title={props.drink.name}
-				subheader={`Added on: ${new Date(
-					props.drink.addedOn
-				).toLocaleDateString()}`}
+				subheader={`${new Date(props.drink.addedOn).toLocaleDateString()}`}
 			/>
 
 			<CardMedia className={classes.media} image={props.drink.image} title="" />
