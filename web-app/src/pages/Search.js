@@ -47,6 +47,7 @@ export default function Search() {
 			const alc = JSON.parse(window.localStorage.getItem(`search_alcoholic`));
 			const i = window.localStorage.getItem(`search_ingredient`);
 			const n = window.localStorage.getItem(`search_name`);
+			const r = JSON.parse(window.localStorage.getItem(`search_results`));
 			if (alc !== null) {
 				setAlcoholic(alc);
 			}
@@ -55,6 +56,9 @@ export default function Search() {
 			}
 			if (n) {
 				setName(n);
+			}
+			if (r) {
+				setDrinks(r);
 			}
 		});
 	}, []);
@@ -66,6 +70,7 @@ export default function Search() {
 		try {
 			const res = await getDrinks(alcoholic, null, i, null, n);
 			setDrinks(res.data);
+			window.localStorage.setItem(`search_results`, JSON.stringify(res.data));
 		} catch (err) {
 			if (err.request.status === 404) {
 				setDrinks([]);

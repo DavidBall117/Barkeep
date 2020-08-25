@@ -16,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
 	},
 	item: {
 		maxWidth: 400,
-		paddingBottom: "1.5rem",
+		paddingBottom: "3rem",
 		[theme.breakpoints.up("sm")]: {
 			padding: "1rem",
 		},
